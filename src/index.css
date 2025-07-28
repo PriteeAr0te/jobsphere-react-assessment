@@ -1,2 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --primary: #13162A;
+  --secondary-bg: #24294D;
+  --btn-bg: #2E3461;
+  --light-bg: #9999FF;
+  --navbar: #1E293B;
+  --br-primary: #EEEEEE;
+}
+
+.dark {
+  --primary: #13162A;
+  --secondary-bg: #24294D;
+  --btn-bg: #2E3461;
+  --light-bg: #9999FF;
+  --navbar: #1E293B;
+  --br-primary: #EEEEEE;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-secondary-bg: var(--secondary-bg);
+  --color-btn-bg: var(--btn-bg);
+  --color-light-bg: var(--light-bg);
+  --color-navbar: var(--navbar);
+  --color-br-primary: var(--br-primary);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shadow-custom {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

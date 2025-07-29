@@ -14,8 +14,8 @@ const JobDetailsPanel = ({ job }) => {
   }
 
   return (
-    <section className='p-4 py-6 border border-br-primary/60 rounded-lg w-full h-full flex flex-col items-center gap-y-4 justify-center relative'>
-      <div className='w-full h-fit flex flex-col justify-center items-center gap-y-4 sticky top-0 z-10'>
+    <section className='p-4 py-6 border border-br-primary/60 rounded-lg w-full min-h-full md:h-full justify-center mb-2'>
+      <div className='w-full h-fit flex flex-col justify-center items-center gap-y-4 bg-primary z-10 pb-3'>
         <div className='w-[45px] h-[45px] rounded-lg bg-light-bg flex items-center justify-center'>
           <img
             src={`${job.company_logo_url}${getInitials(job.company_name)}`}
@@ -41,13 +41,13 @@ const JobDetailsPanel = ({ job }) => {
           <div className='flex justify-center gap-4 items-center mt-2'>
             {job.salary_range && (
               <>
-                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-[15px] items-center'>
+                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
                   {getExperienceCategory(job.experience_level)}
                 </div>
-                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-[15px] items-center'>
+                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
                   {job.job_type}
                 </div>
-                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-[15px] items-center'>
+                <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
                   {job.salary_range}
                 </div>
               </>
@@ -56,7 +56,7 @@ const JobDetailsPanel = ({ job }) => {
         </div>
       </div>
 
-      <div className='overflow-y-auto w-full h-full no-scrollbar'>
+      <div className='w-full md:h-[calc(100vh-350px)] lg:h-[calc(100vh-310px)] xl:h-[calc(100vh-300px)] overflow-y-scroll scrollable-container'>
         <section className='w-full flex justify-center items-center'>
           <JobToggleBtn activeTab={activeTab} setActiveTab={setActiveTab} />
         </section>
@@ -78,7 +78,6 @@ const JobDetailsPanel = ({ job }) => {
                       key={index}
                       className="px-3 py-1 text-sm font-medium bg-btn-bg text-white/80 rounded-full shadow-sm transition-all duration-200 flex gap-2 items-center"
                     >
-                      {/* <span className='w-[4px] h-[4px] rounded-full bg-white'></span> */}
                       <span>{skill}</span>
                     </span>
                   ))}

@@ -37,11 +37,14 @@
   --color-text-secondary: var(--text-secondary);
 }
 
+html,
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  width: 100%;
+  height: 100%;
 }
 
 .shadow-custom {
@@ -96,4 +99,19 @@ body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background-color: #24294D;
+  border-radius: 10px;
+  border: 2px solid lightgray;
 }

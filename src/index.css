@@ -5,12 +5,14 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --primary: #13162A;
-  --secondary-bg: #24294D;
+  --primary: oklch(98.4% 0.003 247.858);
+  --secondary-bg: oklch(96.8% 0.007 247.896);
   --btn-bg: #2E3461;
-  --light-bg: #9999FF;
+  --light-bg: oklch(37.2% 0.044 257.287);
   --navbar: #1E293B;
-  --br-primary: #EEEEEE;
+  --br-primary: oklch(86.9% 0.022 252.894);
+  --white: oklch(20.8% 0.042 265.755);
+  --text-secondary: oklch(55.4% 0.046 257.417);
 }
 
 .dark {
@@ -19,7 +21,9 @@
   --btn-bg: #2E3461;
   --light-bg: #9999FF;
   --navbar: #1E293B;
-  --br-primary: #EEEEEE;
+  --br-primary: oklch(37.2% 0.044 257.287);
+  --white: #FFFFFF;
+  --text-secondary: oklch(87.2% 0.01 258.338);
 }
 
 @theme {
@@ -29,6 +33,8 @@
   --color-light-bg: var(--light-bg);
   --color-navbar: var(--navbar);
   --color-br-primary: var(--br-primary);
+  --color-white: var(--white);
+  --color-text-secondary: var(--text-secondary);
 }
 
 body {
@@ -40,4 +46,54 @@ body {
 
 .shadow-custom {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.markdoun-text h2 {
+  font-size: 1.6rem;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.markdoun-text p {
+  font-size: 1.005rem;
+  line-height: 1.475rem;
+  letter-spacing: 0.009rem;
+  font-weight: 400;
+}
+
+.markdoun-text ul {
+  list-style-type: disc;
+  padding-left: 15px;
+}
+
+.markdoun-text ul li {
+  font-size: 1.005rem;
+  line-height: 1.475rem;
+  letter-spacing: 0.009rem;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

@@ -6,10 +6,10 @@ import Footer from './Footer'
 const MainLayout = () => {
   return (
 
-    <div className='w-screen min-h-screen bg-primary text-white overflow-x-hidden'>
+    <div className='w-screen min-h-screen dark:bg-primary text-white'>
       <Header />
 
-      <main className='pb-10 pt-[30px] overflow-x-hidden'>
+      <main className='pb-10 pt-[30px]'>
         <Outlet />
       </main>
 

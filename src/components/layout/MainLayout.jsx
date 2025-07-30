@@ -9,7 +9,7 @@ const MainLayout = () => {
     <div className='w-screen dark:bg-primary text-white'>
       <Header />
 
-      <main className='pb-4 pt-[30px]'>
+      <main className='pb-4 pt-[20px]'>
         <Outlet />
       </main>
 

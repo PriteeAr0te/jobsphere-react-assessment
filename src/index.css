@@ -7,8 +7,8 @@
 :root {
   --primary: oklch(98.4% 0.003 247.858);
   --secondary-bg: oklch(96.8% 0.007 247.896);
-  --btn-bg: #2E3461;
-  --light-bg: oklch(37.2% 0.044 257.287);
+  --btn-bg: oklch(86.9% 0.022 252.894);
+  --light-bg: oklch(86.9% 0.022 252.894);
   --navbar: #1E293B;
   --br-primary: oklch(86.9% 0.022 252.894);
   --white: oklch(20.8% 0.042 265.755);

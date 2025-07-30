@@ -4,7 +4,7 @@ import jobsData from '../data/jobs.json'
 import JobDetailsPanel from '../components/JobDetailsPanel';
 
 const JobDetails = () => {
-  const jobs = jobsData.jobs;
+  const jobs = jobsData;
   const {id} = useParams();
   const job = jobs.find(j => j.id.toString() === id)
 

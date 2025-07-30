@@ -1,1040 +1,1236 @@
-{
-    "jobs": [
-        {
-            "id": "job-001",
-            "title": "Senior Python Developer",
-            "company_name": "TechInnovate Solutions",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "12 LPA - 18 LPA",
-            "experience_level": "Senior (5+ years)",
-            "company_link": "https://www.techinnovatesolutions.com",
-            "skills_required": [
-                "Python",
-                "Django",
-                "REST APIs",
-                "AWS",
-                "SQL",
-                "Docker",
-                "Celery"
-            ],
-            "about_company": "## About TechInnovate Solutions\nTechInnovate Solutions is a leading software development firm specializing in scalable web applications and data platforms. We are looking for a highly skilled Senior Python Developer to join our dynamic team and contribute to our cutting-edge projects.\n\n##",
-            "job_description": "## Job Description\nLorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt culpa consectetur a temporibus perspiciatis in vero explicabo iusto voluptatum soluta, eligendi ipsam facilis quidem excepturi rem beatae at quo est.\n\n## Job Responsibilities\n* Design, develop, and maintain robust, high-performance web applications using Python and Django/Flask.\n* Collaborate with cross-functional teams to define, design, and ship new features.\n* Implement and manage RESTful APIs for seamless integration with frontend services.\n* Optimize applications for maximum speed and scalability.\n* Write clean, well-documented, and testable code.\n* Participate in code reviews and contribute to architectural discussions.\n* Mentor junior developers and foster a collaborative environment.\n\n## Job Requirements\n* Bachelor's degree in Computer Science, Engineering, or a related field.\n* **5+ years** of professional experience in Python web development.\n* Proficiency in Django or Flask framework.\n* Strong understanding of relational databases (PostgreSQL, MySQL).\n* Experience with cloud platforms (AWS, Azure, GCP) is a plus.\n* Familiarity with containerization (Docker, Kubernetes).\n* Excellent problem-solving and communication skills.\n\n## Perks & Benefits\n* Competitive salary and performance bonuses.\n* Comprehensive health, dental, and vision insurance.\n* Flexible work hours and remote work options (post-probation).\n* Professional development opportunities and training budget.\n* Generous paid time off.\n* Modern office space with amenities.\n",
-            "application_deadline": "2025-08-30",
-            "posted_date": "2025-07-25",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Software Development",
-            "benefits": [
-                "Health Insurance",
-                "Dental Insurance",
-                "Paid Time Off",
-                "401(k)"
-            ]
-        },
-        {
-            "id": "job-002",
-            "title": "React.js Frontend Developer",
-            "company_name": "WebCrafters Studio",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Remote",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "8 LPA - 14 LPA",
-            "experience_level": "Mid-level (3-5 years)",
-            "company_link": "https://www.webcrafters.com",
-            "skills_required": [
-                "React.js",
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "Redux",
-                "Webpack",
-                "RESTful APIs"
-            ],
-            "job_description": "## About WebCrafters Studio\nWe are a dynamic digital agency building intuitive and beautiful web experiences. We are seeking a talented React.js Frontend Developer to enhance our team.\n\n## Job Responsibilities\n* Develop and maintain user-facing features using React.js workflows.\n* Collaborate with backend developers to integrate APIs.\n* Optimize components for maximum performance across a vast array of web-capable devices and browsers.\n* Ensure technical feasibility of UI/UX designs.\n* Write clean, well-structured, and efficient code.\n\n## Job Requirements\n* **3+ years** of experience with React.js.\n* Strong proficiency in JavaScript, including DOM manipulation and the JavaScript object model.\n* Familiarity with modern front-end build pipelines and tools.\n* Experience with state management libraries like Redux or Context API.\n* Good understanding of asynchronous request handling, partial page updates, and AJAX.\n\n## Perks & Benefits\n* Flexible work environment.\n* Health and wellness programs.\n* Opportunities for professional growth.\n",
-            "application_deadline": "2025-08-28",
-            "posted_date": "2025-07-26",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Software Development",
-            "benefits": [
-                "Health Insurance",
-                "Flexible Hours",
-                "Performance Bonus"
-            ]
-        },
-        {
-            "id": "job-003",
-            "title": "Data Scientist",
-            "company_name": "Insight Analytics Pvt. Ltd.",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "10 LPA - 16 LPA",
-            "experience_level": "Mid-level (4-7 years)",
-            "company_link": "https://www.insightanalytics.in",
-            "skills_required": [
-                "Python",
-                "R",
-                "SQL",
-                "Machine Learning",
-                "Statistical Modeling",
-                "Data Visualization",
-                "Big Data"
-            ],
-            "job_description": "## About Insight Analytics\nInsight Analytics is at the forefront of leveraging data to drive business decisions. We are looking for an experienced Data Scientist to join our growing team.\n\n## Job Responsibilities\n* Develop and implement statistical models and machine learning algorithms.\n* Analyze large, complex datasets to extract actionable insights.\n* Design and build data pipelines.\n* Collaborate with engineering and product teams to deploy models.\n* Present findings to stakeholders in a clear and concise manner.\n\n## Job Requirements\n* Master's or Ph.D. in a quantitative field (Statistics, Computer Science, Mathematics).\n* **4+ years** of experience as a Data Scientist.\n* Strong programming skills in Python or R.\n* Solid understanding of machine learning techniques and algorithms.\n* Experience with SQL and big data technologies (e.g., Spark, Hadoop).\n\n## Perks & Benefits\n* Cutting-edge projects.\n* Collaborative work environment.\n* Continuous learning opportunities.\n",
-            "application_deadline": "2025-09-05",
-            "posted_date": "2025-07-24",
-            "job_type": "Full-time",
-            "education_required": "Master's Degree",
-            "industry": "IT - Data Science",
-            "benefits": [
-                "Annual Bonus",
-                "Skill Development",
-                "Gym Membership"
-            ]
-        },
-        {
-            "id": "job-004",
-            "title": "DevOps Engineer",
-            "company_name": "CloudNine Solutions",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Hybrid",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "9 LPA - 15 LPA",
-            "experience_level": "Mid-level (3-6 years)",
-            "company_link": "https://www.cloudninesolutions.com",
-            "skills_required": [
-                "AWS",
-                "Azure",
-                "Terraform",
-                "Kubernetes",
-                "Docker",
-                "CI/CD",
-                "Linux"
-            ],
-            "job_description": "## About CloudNine Solutions\nWe help businesses scale their infrastructure and deploy applications seamlessly. We're hiring a DevOps Engineer to optimize our continuous integration and delivery pipelines.\n\n## Job Responsibilities\n* Design, implement, and manage CI/CD pipelines.\n* Automate infrastructure provisioning using tools like Terraform.\n* Manage and optimize cloud resources (AWS/Azure).\n* Implement monitoring and logging solutions.\n* Troubleshoot production issues and ensure system reliability.\n\n## Job Requirements\n* **3+ years** of experience as a DevOps Engineer.\n* Strong experience with cloud platforms (AWS, Azure, or GCP).\n* Proficiency with Docker and Kubernetes.\n* Hands-on experience with CI/CD tools (Jenkins, GitLab CI, Azure DevOps).\n* Solid understanding of Linux administration and shell scripting.\n\n## Perks & Benefits\n* Work with cutting-edge cloud technologies.\n* Flexible work options.\n* Team-building events.\n",
-            "application_deadline": "2025-09-10",
-            "posted_date": "2025-07-23",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - DevOps",
-            "benefits": [
-                "Work-from-home options",
-                "Professional Training",
-                "Team Lunches"
-            ]
-        },
-        {
-            "id": "job-005",
-            "title": "UI/UX Designer",
-            "company_name": "PixelPerfect Designs",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "6 LPA - 10 LPA",
-            "experience_level": "Junior to Mid-level (2-4 years)",
-            "company_link": "https://www.pixelperfectdesigns.co",
-            "skills_required": [
-                "Figma",
-                "Sketch",
-                "Adobe XD",
-                "User Research",
-                "Wireframing",
-                "Prototyping",
-                "Usability Testing"
-            ],
-            "job_description": "## About PixelPerfect Designs\nWe are a creative design studio passionate about crafting intuitive and visually appealing user experiences. We're looking for a talented UI/UX Designer to join our team.\n\n## Job Responsibilities\n* Conduct user research and analyze user feedback.\n* Create wireframes, storyboards, user flows, and site maps.\n* Design intuitive and appealing user interfaces.\n* Develop and refine prototypes for user testing.\n* Collaborate with developers to ensure seamless implementation of designs.\n\n## Job Requirements\n* **2+ years** of experience in UI/UX design.\n* Proficiency in design tools like Figma, Sketch, or Adobe XD.\n* Strong portfolio showcasing your design process and visual design skills.\n* Understanding of user-centered design principles.\n* Excellent communication and collaboration skills.\n\n## Perks & Benefits\n* Creative work environment.\n* Opportunity to work on diverse projects.\n* Mentorship and growth opportunities.\n",
-            "application_deadline": "2025-08-31",
-            "posted_date": "2025-07-27",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Design",
-            "benefits": [
-                "Creative Environment",
-                "Design Workshops",
-                "Flexible PTO"
-            ]
-        },
-        {
-            "id": "job-006",
-            "title": "Full Stack Java Developer",
-            "company_name": "Enterprise Solutions Ltd.",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "10 LPA - 17 LPA",
-            "experience_level": "Senior (5-8 years)",
-            "company_link": "https://www.enterprise-solutions.in",
-            "skills_required": [
-                "Java",
-                "Spring Boot",
-                "Hibernate",
-                "Angular/React",
-                "SQL",
-                "Microservices",
-                "Junit"
-            ],
-            "job_description": "## About Enterprise Solutions Ltd.\nWe provide robust software solutions for large enterprises. We are seeking a seasoned Full Stack Java Developer to contribute to our mission-critical applications.\n\n## Job Responsibilities\n* Design, develop, and deploy full-stack applications using Java and Spring Boot.\n* Build highly scalable and reliable microservices.\n* Develop responsive frontend interfaces using Angular or React.\n* Work with relational databases to ensure data integrity.\n* Participate in the entire application lifecycle, focusing on coding and debugging.\n\n## Job Requirements\n* **5+ years** of experience in Java development.\n* Strong proficiency with Spring Boot, Hibernate, and RESTful APIs.\n* Experience with frontend frameworks (Angular/React).\n* Solid understanding of object-oriented programming.\n* Familiarity with Agile development methodologies.\n\n## Perks & Benefits\n* Exposure to large-scale enterprise projects.\n* Performance-based incentives.\n* Comprehensive health benefits.\n",
-            "application_deadline": "2025-09-02",
-            "posted_date": "2025-07-25",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Software Development",
-            "benefits": [
-                "Health Insurance",
-                "Paid Sick Leave",
-                "Pension Plan"
-            ]
-        },
-        {
-            "id": "job-007",
-            "title": "QA Automation Engineer",
-            "company_name": "QualityAssure Systems",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Hybrid",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "7 LPA - 12 LPA",
-            "experience_level": "Mid-level (3-5 years)",
-            "company_link": "https://www.qualityassure.co.in",
-            "skills_required": [
-                "Selenium",
-                "Cypress",
-                "Java/Python",
-                "API Testing",
-                "Test Automation Frameworks",
-                "Jira"
-            ],
-            "job_description": "## About QualityAssure Systems\nWe are dedicated to ensuring the highest quality of software products. We are looking for an experienced QA Automation Engineer to build and maintain our automated test suites.\n\n## Job Responsibilities\n* Design, develop, and execute automated test scripts using Selenium/Cypress.\n* Create and maintain robust, scalable automation frameworks.\n* Perform API testing and integrate automation with CI/CD pipelines.\n* Identify, document, and track software defects.\n* Collaborate with development teams to improve product quality.\n\n## Job Requirements\n* **3+ years** of experience in QA automation.\n* Strong experience with automation tools like Selenium, Cypress, Playwright.\n* Proficiency in a programming language (Java, Python, JavaScript).\n* Understanding of software QA methodologies, tools, and processes.\n* Experience with performance and security testing is a plus.\n\n## Perks & Benefits\n* Challenging projects.\n* Learning and development opportunities.\n* Flexible work schedule.\n",
-            "application_deadline": "2025-08-29",
-            "posted_date": "2025-07-26",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Quality Assurance",
-            "benefits": [
-                "Flexible Hours",
-                "Learning Budget",
-                "Snacks and Beverages"
-            ]
-        },
-        {
-            "id": "job-008",
-            "title": "Android Developer",
-            "company_name": "MobileFirst Apps",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Remote",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "7 LPA - 13 LPA",
-            "experience_level": "Mid-level (3-5 years)",
-            "company_link": "https://www.mobilefirstapps.com",
-            "skills_required": [
-                "Kotlin",
-                "Java",
-                "Android SDK",
-                "RESTful APIs",
-                "MVVM/MVP",
-                "Firebase",
-                "Unit Testing"
-            ],
-            "job_description": "## About MobileFirst Apps\nWe are a rapidly growing company focused on building innovative and user-friendly mobile applications. We seek an Android Developer to join our agile team.\n\n## Job Responsibilities\n* Design and build advanced applications for the Android platform.\n* Collaborate with cross-functional teams to define, design, and ship new features.\n* Work with outside data sources and APIs.\n* Unit-test code for robustness, including edge cases, usability, and general reliability.\n* Work on bug fixing and improving application performance.\n\n## Job Requirements\n* **3+ years** of Android development experience.\n* Strong knowledge of Kotlin or Java.\n* Experience with Android SDK and different versions of Android.\n* Familiarity with RESTful APIs to connect Android applications to back-end services.\n* Knowledge of UI/UX standards.\n\n## Perks & Benefits\n* Dynamic and supportive work environment.\n* Opportunity to work on exciting new apps.\n* Regular team outings.\n",
-            "application_deadline": "2025-09-01",
-            "posted_date": "2025-07-24",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Mobile Development",
-            "benefits": [
-                "Mobile Allowance",
-                "Team Building",
-                "Casual Dress Code"
-            ]
-        },
-        {
-            "id": "job-009",
-            "title": "Cloud Architect",
-            "company_name": "AzureSphere Tech",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Hybrid",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "18 LPA - 25 LPA",
-            "experience_level": "Expert (8+ years)",
-            "company_link": "https://www.azurespheretech.com",
-            "skills_required": [
-                "Azure",
-                "AWS",
-                "GCP",
-                "Solution Architecture",
-                "Microservices",
-                "Security",
-                "Scalability"
-            ],
-            "job_description": "## About AzureSphere Tech\nWe are a cloud-native company helping clients design and implement robust cloud solutions. We are seeking an experienced Cloud Architect to lead our cloud infrastructure initiatives.\n\n## Job Responsibilities\n* Design and implement secure, scalable, and high-performance cloud solutions.\n* Provide technical leadership and guidance on cloud best practices.\n* Evaluate new cloud technologies and propose their adoption.\n* Collaborate with development and operations teams to ensure seamless deployment.\n* Define cloud security policies and compliance frameworks.\n\n## Job Requirements\n* **8+ years** of experience in IT, with **3+ years** in a cloud architect role.\n* Deep expertise in at least one major cloud platform (Azure, AWS, or GCP).\n* Strong understanding of cloud security, networking, and cost optimization.\n* Experience with enterprise architecture and microservices design.\n* Certifications in cloud architecture are highly preferred.\n\n## Perks & Benefits\n* High-impact role with significant responsibility.\n* Competitive compensation.\n* Opportunity to shape cloud strategies.\n",
-            "application_deadline": "2025-07-15",
-            "posted_date": "2025-07-22",
-            "job_type": "Full-time",
-            "education_required": "Master's Degree Preferred",
-            "industry": "IT - Cloud Computing",
-            "benefits": [
-                "Generous Paid Time Off",
-                "Professional Certifications",
-                "Stock Options"
-            ]
-        },
-        {
-            "id": "job-010",
-            "title": "Cybersecurity Analyst",
-            "company_name": "SecureNet Services",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "7 LPA - 12 LPA",
-            "experience_level": "Mid-level (3-6 years)",
-            "company_link": "https://www.securenetservices.in",
-            "skills_required": [
-                "SIEM",
-                "Vulnerability Assessment",
-                "Penetration Testing",
-                "Incident Response",
-                "Network Security",
-                "Firewalls"
-            ],
-            "job_description": "## About SecureNet Services\nSecureNet Services is a leading cybersecurity firm protecting businesses from evolving threats. We are seeking a diligent Cybersecurity Analyst to join our security operations center (SOC) team.\n\n## Job Responsibilities\n* Monitor security systems and analyze security alerts (SIEM).\n* Conduct vulnerability assessments and penetration tests.\n* Respond to security incidents and provide detailed reports.\n* Implement and manage security solutions (firewalls, IDS/IPS).\n* Stay updated with the latest security trends and threats.\n\n## Job Requirements\n* **3+ years** of experience in cybersecurity.\n* Solid understanding of network security principles and protocols.\n* Experience with SIEM tools and incident response processes.\n* Certifications like CompTIA Security+, CEH, or CISSP are a plus.\n* Strong analytical and problem-solving skills.\n\n## Perks & Benefits\n* Impactful work in a critical field.\n* Opportunities for specialized security training.\n* Collaborative and expert team.\n",
-            "application_deadline": "2025-09-08",
-            "posted_date": "2025-07-28",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Cybersecurity",
-            "benefits": [
-                "Security Training",
-                "Certification Reimbursement",
-                "Remote Work Flex"
-            ]
-        },
-        {
-            "id": "job-011",
-            "title": "Software Development Engineer in Test (SDET)",
-            "company_name": "CodeVelocity Labs",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "8 LPA - 14 LPA",
-            "experience_level": "Mid-level (4-7 years)",
-            "company_link": "https://www.codevelocity.com",
-            "skills_required": [
-                "Java",
-                "Selenium",
-                "TestNG",
-                "Cucumber",
-                "API Testing",
-                "CI/CD",
-                "Agile"
-            ],
-            "job_description": "## About CodeVelocity Labs\nWe build high-quality software products at speed. We're looking for an SDET to embed quality throughout our development lifecycle.\n\n## Job Responsibilities\n* Design, develop, and maintain automated test frameworks and scripts.\n* Integrate automated tests into CI/CD pipelines.\n* Collaborate with development and product teams to ensure testability and quality.\n* Perform functional, regression, and performance testing.\n* Advocate for quality best practices within agile teams.\n\n## Job Requirements\n* **4+ years** of experience as an SDET or Automation Engineer.\n* Strong programming skills in Java, Python, or C#.\n* Expertise in test automation tools like Selenium, Playwright, or Cypress.\n* Experience with API testing (e.g., Postman, Rest Assured).\n* Familiarity with Git and Agile methodologies.\n\n## Perks & Benefits\n* Challenging technical problems.\n* Opportunities for innovation.\n* Growth-oriented culture.\n",
-            "application_deadline": "2025-09-03",
-            "posted_date": "2025-07-27",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Software Testing",
-            "benefits": [
-                "Learning Stipend",
-                "Team Lunches",
-                "Flexible Work Hours"
-            ]
-        },
-        {
-            "id": "job-012",
-            "title": "Network Engineer",
-            "company_name": "ConnectRight Networks",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "6 LPA - 10 LPA",
-            "experience_level": "Mid-level (3-5 years)",
-            "company_link": "https://www.connectright.in",
-            "skills_required": [
-                "Cisco",
-                "Juniper",
-                "Routers",
-                "Switches",
-                "Firewalls",
-                "LAN/WAN",
-                "Troubleshooting"
-            ],
-            "job_description": "## About ConnectRight Networks\nWe ensure robust and reliable network infrastructure for businesses. We're looking for a Network Engineer to maintain and optimize our clients' networks.\n\n## Job Responsibilities\n* Design, configure, and maintain network hardware and software.\n* Monitor network performance and ensure system availability.\n* Troubleshoot network connectivity and performance issues.\n* Implement and manage network security measures.\n* Document network configurations and procedures.\n\n## Job Requirements\n* **3+ years** of experience as a Network Engineer.\n* Strong knowledge of networking protocols (TCP/IP, OSPF, BGP).\n* Experience with Cisco/Juniper routers and switches.\n* Familiarity with firewalls and network security concepts.\n* Cisco CCNA/CCNP certification is a plus.\n\n## Perks & Benefits\n* Opportunity to work with diverse network technologies.\n* Career advancement opportunities.\n* Supportive team environment.\n",
-            "application_deadline": "2025-09-07",
-            "posted_date": "2025-07-29",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "IT - Networking",
-            "benefits": [
-                "Certification Support",
-                "On-call Allowance",
-                "Travel Reimbursement"
-            ]
-        },
-        {
-            "id": "job-013",
-            "title": "Business Analyst",
-            "company_name": "Stratagem Consulting",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "7 LPA - 11 LPA",
-            "experience_level": "Mid-level (4-6 years)",
-            "company_link": "https://www.stratagemconsulting.com",
-            "skills_required": [
-                "Requirements Gathering",
-                "UML",
-                "SQL",
-                "Data Modeling",
-                "Stakeholder Management",
-                "Agile",
-                "Jira"
-            ],
-            "job_description": "## About Stratagem Consulting\nStratagem Consulting helps businesses streamline processes and optimize operations. We're seeking a skilled Business Analyst to bridge the gap between business needs and technical solutions.\n\n## Job Responsibilities\n* Elicit, analyze, and document business requirements from stakeholders.\n* Translate business needs into functional and non-functional specifications.\n* Create process flows, user stories, and use cases.\n* Collaborate with development and QA teams throughout the SDLC.\n* Facilitate workshops and meetings with business users.\n\n## Job Requirements\n* **4+ years** of experience as a Business Analyst.\n* Strong analytical and problem-solving skills.\n* Excellent communication and interpersonal skills.\n* Experience with Agile methodologies and tools (Jira, Confluence).\n* Bachelor's degree in Business, IT, or a related field.\n\n## Perks & Benefits\n* Diverse client projects.\n* Professional development budget.\n* Collaborative team culture.\n",
-            "application_deadline": "2025-08-25",
-            "posted_date": "2025-07-20",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Consulting",
-            "benefits": [
-                "Performance Incentives",
-                "Travel Allowance",
-                "Mentorship Programs"
-            ]
-        },
-        {
-            "id": "job-014",
-            "title": "Marketing Manager",
-            "company_name": "BrandBoost Marketing",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Hybrid",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "8 LPA - 13 LPA",
-            "experience_level": "Mid-level (5+ years)",
-            "company_link": "https://www.brandboost.in",
-            "skills_required": [
-                "Digital Marketing",
-                "SEO",
-                "SEM",
-                "Content Strategy",
-                "Social Media",
-                "Analytics",
-                "Campaign Management"
-            ],
-            "job_description": "## About BrandBoost Marketing\nBrandBoost Marketing is a fast-growing agency specializing in digital growth strategies. We are looking for a dynamic Marketing Manager to lead our campaigns.\n\n## Job Responsibilities\n* Develop and execute comprehensive digital marketing strategies.\n* Manage SEO, SEM, and social media campaigns.\n* Oversee content creation and distribution.\n* Analyze marketing performance and optimize for ROI.\n* Lead a team of marketing specialists.\n\n## Job Requirements\n* **5+ years** of experience in marketing, with a focus on digital.\n* Proven track record of successful campaign management.\n* Strong understanding of SEO, SEM, and social media platforms.\n* Excellent analytical and leadership skills.\n* Bachelor's degree in Marketing or a related field.\n\n## Perks & Benefits\n* Opportunity to innovate marketing strategies.\n* Performance bonuses.\n* Creative and energetic work environment.\n",
-            "application_deadline": "2025-08-30",
-            "posted_date": "2025-07-21",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Marketing",
-            "benefits": [
-                "Performance Bonus",
-                "Marketing Tools Budget",
-                "Health & Wellness"
-            ]
-        },
-        {
-            "id": "job-015",
-            "title": "Accountant",
-            "company_name": "Finanza Partners",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "4 LPA - 7 LPA",
-            "experience_level": "Junior to Mid-level (2-4 years)",
-            "company_link": "https://www.finanzapartners.in",
-            "skills_required": [
-                "Tally",
-                "GST",
-                "Taxation",
-                "Bookkeeping",
-                "Financial Reporting",
-                "Auditing"
-            ],
-            "job_description": "## About Finanza Partners\nFinanza Partners is a reputable accounting firm providing comprehensive financial services to businesses. We are looking for a diligent Accountant to join our team.\n\n## Job Responsibilities\n* Manage all accounting transactions.\n* Prepare budget forecasts and financial statements.\n* Handle monthly, quarterly, and annual closings.\n* Compute taxes and prepare tax returns.\n* Manage balance sheets and profit/loss statements.\n* Audit financial transactions and documents.\n\n## Job Requirements\n* **2+ years** of proven experience as an Accountant.\n* Excellent knowledge of accounting regulations and procedures.\n* Hands-on experience with accounting software like Tally.\n* Advanced MS Excel skills.\n* Bachelor's degree in Accounting, Finance, or relevant field.\n\n## Perks & Benefits\n* Professional growth within a stable environment.\n* Opportunity to work with diverse clients.\n* Competitive salary.\n",
-            "application_deadline": "2025-09-01",
-            "posted_date": "2025-07-26",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Accounting",
-            "industry": "Finance & Accounting",
-            "benefits": [
-                "EPF/Gratuity",
-                "Annual Leave",
-                "Professional Development"
-            ]
-        },
-        {
-            "id": "job-016",
-            "title": "Human Resources Executive",
-            "company_name": "PeopleGrowth Solutions",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "3.5 LPA - 6 LPA",
-            "experience_level": "Junior (1-3 years)",
-            "company_link": "https://www.peoplegrowth.in",
-            "skills_required": [
-                "Recruitment",
-                "HR Policies",
-                "Employee Relations",
-                "Payroll",
-                "MS Office",
-                "HRIS"
-            ],
-            "job_description": "## About PeopleGrowth Solutions\nPeopleGrowth Solutions is an HR consulting firm committed to fostering positive workplace environments. We are seeking an enthusiastic HR Executive to support our operations.\n\n## Job Responsibilities\n* Assist with the recruitment process by identifying candidates and scheduling interviews.\n* Maintain accurate HR records and employee data.\n* Support the implementation of HR policies and procedures.\n* Handle employee inquiries and provide HR support.\n* Assist in payroll processing and benefits administration.\n\n## Job Requirements\n* **1+ year** of experience in an HR role.\n* Strong understanding of HR principles and practices.\n* Excellent communication and interpersonal skills.\n* Proficiency in MS Office and HRIS systems.\n* Bachelor's degree in Human Resources or related field.\n\n## Perks & Benefits\n* Exposure to various HR functions.\n* Supportive team environment.\n* Opportunities for career advancement.\n",
-            "application_deadline": "2025-08-28",
-            "posted_date": "2025-07-23",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Human Resources",
-            "benefits": [
-                "Health Insurance",
-                "Paid Leaves",
-                "Learning & Development"
-            ]
-        },
-        {
-            "id": "job-017",
-            "title": "Sales Executive",
-            "company_name": "MarketReach Sales",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "4 LPA - 8 LPA + Incentives",
-            "experience_level": "Junior to Mid-level (2-5 years)",
-            "company_link": "https://www.marketreachsales.com",
-            "skills_required": [
-                "Sales",
-                "Client Relationship",
-                "Negotiation",
-                "CRM",
-                "Lead Generation",
-                "Presentation Skills"
-            ],
-            "job_description": "## About MarketReach Sales\nMarketReach Sales is a fast-growing sales organization focused on delivering high-value solutions to clients. We are seeking a motivated Sales Executive to expand our customer base.\n\n## Job Responsibilities\n* Identify and pursue new sales opportunities.\n* Build and maintain strong client relationships.\n* Conduct product presentations and demonstrations.\n* Negotiate contracts and close deals.\n* Achieve sales targets and contribute to revenue growth.\n\n## Job Requirements\n* **2+ years** of experience in sales.\n* Proven track record of meeting or exceeding sales quotas.\n* Excellent communication, negotiation, and interpersonal skills.\n* Self-motivated with a results-driven approach.\n* Bachelor's degree is a plus.\n\n## Perks & Benefits\n* Lucrative incentive structure.\n* Opportunities for rapid career progression.\n* Comprehensive sales training.\n",
-            "application_deadline": "2025-09-05",
-            "posted_date": "2025-07-27",
-            "job_type": "Full-time",
-            "education_required": "10+2 or Graduate",
-            "industry": "Sales",
-            "benefits": [
-                "Sales Incentives",
-                "Travel Reimbursement",
-                "Mobile Allowance"
-            ]
-        },
-        {
-            "id": "job-018",
-            "title": "Content Writer",
-            "company_name": "WordCraft Media",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Remote",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "3 LPA - 6 LPA",
-            "experience_level": "Junior (1-3 years)",
-            "company_link": "https://www.wordcraftmedia.in",
-            "skills_required": [
-                "Content Writing",
-                "SEO",
-                "Grammar",
-                "Research",
-                "Editing",
-                "Blog Writing"
-            ],
-            "job_description": "## About WordCraft Media\nWordCraft Media is a content agency creating compelling and engaging content for diverse industries. We are looking for a creative Content Writer to join our team.\n\n## Job Responsibilities\n* Research and write high-quality, engaging content for blogs, websites, and marketing materials.\n* Optimize content for search engines (SEO).\n* Edit and proofread content for clarity, grammar, and consistency.\n* Collaborate with marketing and design teams.\n* Meet content deadlines.\n\n## Job Requirements\n* **1+ year** of experience in content writing.\n* Excellent written communication and grammar skills.\n* Strong research abilities.\n* Familiarity with SEO best practices.\n* A portfolio of published articles or content is a plus.\n\n## Perks & Benefits\n* Flexible remote work.\n* Opportunity to write on varied topics.\n* Supportive editorial team.\n",
-            "application_deadline": "2025-08-31",
-            "posted_date": "2025-07-24",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Media & Communications",
-            "benefits": [
-                "Remote Work",
-                "Flexible Hours",
-                "Writing Workshops"
-            ]
-        },
-        {
-            "id": "job-019",
-            "title": "Customer Service Representative",
-            "company_name": "CareConnect Services",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "2.5 LPA - 4.5 LPA",
-            "experience_level": "Entry-level (0-2 years)",
-            "company_link": "https://www.careconnect.in",
-            "skills_required": [
-                "Customer Service",
-                "Communication",
-                "Problem Solving",
-                "Active Listening",
-                "CRM Software",
-                "Multitasking"
-            ],
-            "job_description": "## About CareConnect Services\nCareConnect Services is a leading provider of customer support solutions. We are seeking friendly and empathetic Customer Service Representatives to assist our clients.\n\n## Job Responsibilities\n* Respond to customer inquiries via phone, email, and chat.\n* Provide accurate information and resolve customer issues effectively.\n* Document customer interactions and solutions.\n* Escalate complex issues to senior staff when necessary.\n* Maintain a high level of customer satisfaction.\n\n## Job Requirements\n* Excellent verbal and written communication skills.\n* Strong problem-solving abilities and attention to detail.\n* Ability to empathize with customers and remain calm under pressure.\n* Basic computer proficiency and typing skills.\n* Prior customer service experience is a plus, but not required.\n\n## Perks & Benefits\n* Comprehensive training provided.\n* Career growth opportunities within customer service.\n* Supportive team environment.\n",
-            "application_deadline": "2025-09-10",
-            "posted_date": "2025-07-29",
-            "job_type": "Full-time",
-            "education_required": "10+2 or Graduate",
-            "industry": "Customer Service",
-            "benefits": [
-                "Health Insurance",
-                "Training Programs",
-                "Shift Allowance"
-            ]
-        },
-        {
-            "id": "job-020",
-            "title": "Civil Engineer",
-            "company_name": "ConstructBuild Developers",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "5 LPA - 9 LPA",
-            "experience_level": "Mid-level (3-6 years)",
-            "company_link": "https://www.constructbuild.com",
-            "skills_required": [
-                "Civil Engineering",
-                "AutoCAD",
-                "Project Management",
-                "Site Supervision",
-                "Structural Analysis",
-                "BIM"
-            ],
-            "job_description": "## About ConstructBuild Developers\nConstructBuild Developers is a prominent construction and infrastructure development company. We are looking for a qualified Civil Engineer to join our project team in Pune.\n\n## Job Responsibilities\n* Design and oversee construction projects from conception to completion.\n* Manage project budgets, schedules, and resources.\n* Ensure compliance with safety regulations and building codes.\n* Conduct site investigations and analyze data.\n* Collaborate with architects, contractors, and other stakeholders.\n\n## Job Requirements\n* Bachelor's degree in Civil Engineering.\n* **3+ years** of experience in civil engineering projects.\n* Proficiency in AutoCAD and other relevant software.\n* Strong knowledge of construction procedures and safety standards.\n* Excellent problem-solving and communication skills.\n\n## Perks & Benefits\n* Opportunity to work on large-scale infrastructure projects.\n* Professional development and training.\n* Health benefits.\n",
-            "application_deadline": "2025-09-08",
-            "posted_date": "2025-07-22",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Civil Engineering",
-            "industry": "Construction",
-            "benefits": [
-                "Health Insurance",
-                "Site Allowance",
-                "Annual Bonus"
-            ]
-        },
-        {
-            "id": "job-021",
-            "title": "Pharmacist",
-            "company_name": "MediCare Pharmacy",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "3.5 LPA - 6 LPA",
-            "experience_level": "Junior to Mid-level (1-4 years)",
-            "company_link": "https://www.medicarepharmacy.in",
-            "skills_required": [
-                "Pharmacology",
-                "Drug Dispensing",
-                "Patient Counseling",
-                "Inventory Management",
-                "Regulatory Compliance"
-            ],
-            "job_description": "## About MediCare Pharmacy\nMediCare Pharmacy is a trusted name in healthcare, providing quality medicines and compassionate care. We are seeking a licensed Pharmacist to join our team.\n\n## Job Responsibilities\n* Dispense prescription medications accurately and safely.\n* Provide patient counseling on medication use, side effects, and interactions.\n* Manage pharmacy inventory and order supplies.\n* Ensure compliance with all state and federal regulations.\n* Collaborate with healthcare professionals to optimize patient care.\n\n## Job Requirements\n* Bachelor's degree in Pharmacy (B.Pharm or M.Pharm).\n* Valid Pharmacist license in Maharashtra.\n* **1+ year** of experience in a retail or hospital pharmacy setting.\n* Strong knowledge of pharmacology and drug interactions.\n* Excellent communication and customer service skills.\n\n## Perks & Benefits\n* Stable working environment.\n* Opportunities for continued education.\n* Employee discounts.\n",
-            "application_deadline": "2025-08-27",
-            "posted_date": "2025-07-25",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Pharmacy",
-            "industry": "Healthcare",
-            "benefits": [
-                "Health Insurance",
-                "Professional Development",
-                "Employee Discount"
-            ]
-        },
-        {
-            "id": "job-022",
-            "title": "Graphic Designer",
-            "company_name": "VisualEdge Studios",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Hybrid",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "4 LPA - 7 LPA",
-            "experience_level": "Junior to Mid-level (2-4 years)",
-            "company_link": "https://www.visualedgestudios.com",
-            "skills_required": [
-                "Adobe Creative Suite",
-                "Photoshop",
-                "Illustrator",
-                "InDesign",
-                "Branding",
-                "Typography",
-                "Layout Design"
-            ],
-            "job_description": "## About VisualEdge Studios\nVisualEdge Studios is a creative agency specializing in impactful visual communication. We are seeking a talented Graphic Designer to bring our clients' visions to life.\n\n## Job Responsibilities\n* Design engaging visual content for digital and print media.\n* Create logos, brochures, website graphics, and social media visuals.\n* Collaborate with marketing and content teams to align designs with campaigns.\n* Ensure brand consistency across all design projects.\n* Stay updated with industry trends and design tools.\n\n## Job Requirements\n* **2+ years** of experience in graphic design.\n* Proficiency in Adobe Creative Suite (Photoshop, Illustrator, InDesign).\n* Strong portfolio showcasing a range of design projects.\n* Excellent understanding of design principles, typography, and color theory.\n* Creative flair and attention to detail.\n\n## Perks & Benefits\n* Dynamic and creative work environment.\n* Opportunity to work on diverse projects.\n* Flexible work schedule.\n",
-            "application_deadline": "2025-09-02",
-            "posted_date": "2025-07-26",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Design or Fine Arts",
-            "industry": "Design",
-            "benefits": [
-                "Creative Freedom",
-                "Skill Development",
-                "Team Activities"
-            ]
-        },
-        {
-            "id": "job-023",
-            "title": "Financial Analyst",
-            "company_name": "WealthSphere Capital",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "6 LPA - 10 LPA",
-            "experience_level": "Mid-level (3-5 years)",
-            "company_link": "https://www.wealthsphere.com",
-            "skills_required": [
-                "Financial Modeling",
-                "Valuation",
-                "Excel",
-                "PowerPoint",
-                "Data Analysis",
-                "Market Research"
-            ],
-            "job_description": "## About WealthSphere Capital\nWealthSphere Capital is an investment advisory firm providing strategic financial guidance. We are looking for a meticulous Financial Analyst to support our research and advisory services.\n\n## Job Responsibilities\n* Conduct financial analysis and build complex financial models.\n* Prepare detailed financial reports and presentations.\n* Analyze market trends and industry data.\n* Assist in investment due diligence.\n* Support senior analysts and portfolio managers.\n\n## Job Requirements\n* Bachelor's or Master's degree in Finance, Economics, or Accounting.\n* **3+ years** of experience as a Financial Analyst.\n* Strong proficiency in Microsoft Excel and financial modeling.\n* Excellent analytical, quantitative, and communication skills.\n* CFA certification or progress is a plus.\n\n## Perks & Benefits\n* Exposure to diverse investment strategies.\n* Opportunities for professional growth.\n* Performance-based incentives.\n",
-            "application_deadline": "2025-09-07",
-            "posted_date": "2025-07-28",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Finance",
-            "industry": "Financial Services",
-            "benefits": [
-                "Performance Bonus",
-                "CFA Support",
-                "Health & Wellness Programs"
-            ]
-        },
-        {
-            "id": "job-024",
-            "title": "Operations Executive",
-            "company_name": "EfficiFlow Logistics",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "3 LPA - 5.5 LPA",
-            "experience_level": "Junior (1-3 years)",
-            "company_link": "https://www.efficiflow.in",
-            "skills_required": [
-                "Operations Management",
-                "Logistics",
-                "Supply Chain",
-                "Problem Solving",
-                "MS Office",
-                "Coordination"
-            ],
-            "job_description": "## About EfficiFlow Logistics\nEfficiFlow Logistics specializes in optimizing supply chain and operational processes. We are looking for a dedicated Operations Executive to ensure smooth daily operations.\n\n## Job Responsibilities\n* Coordinate and monitor daily operational activities.\n* Ensure timely and efficient delivery of services/products.\n* Identify and resolve operational issues.\n* Maintain accurate records and generate reports.\n* Collaborate with various departments to improve efficiency.\n\n## Job Requirements\n* **1+ year** of experience in an operations role.\n* Strong organizational and problem-solving skills.\n* Excellent communication and interpersonal abilities.\n* Proficiency in Microsoft Office Suite.\n* Bachelor's degree in Business Administration or a related field.\n\n## Perks & Benefits\n* Opportunities to streamline processes.\n* Learning and growth within the logistics sector.\n* Supportive team.\n",
-            "application_deadline": "2025-09-04",
-            "posted_date": "2025-07-29",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Logistics & Supply Chain",
-            "benefits": [
-                "Transportation Allowance",
-                "Performance Bonus",
-                "Team Lunches"
-            ]
-        },
-        {
-            "id": "job-025",
-            "title": "Research Associate",
-            "company_name": "BioHealth Research Institute",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "4.5 LPA - 8 LPA",
-            "experience_level": "Junior to Mid-level (2-5 years)",
-            "company_link": "https://www.biohealthresearch.org",
-            "skills_required": [
-                "Research Methodologies",
-                "Data Analysis",
-                "Scientific Writing",
-                "Laboratory Techniques",
-                "Statistical Software",
-                "Biotechnology"
-            ],
-            "job_description": "## About BioHealth Research Institute\nBioHealth Research Institute is a leading research organization dedicated to advancing biomedical science. We are seeking a motivated Research Associate to contribute to our ongoing projects.\n\n## Job Responsibilities\n* Conduct scientific experiments and collect data.\n* Analyze research findings using statistical methods.\n* Prepare research reports, presentations, and publications.\n* Maintain laboratory equipment and manage inventory.\n* Collaborate with senior researchers and contribute to grant proposals.\n\n## Job Requirements\n* Master's degree in Biotechnology, Life Sciences, or a related field.\n* **2+ years** of research experience (academic or industry).\n* Proficiency in relevant laboratory techniques.\n* Strong data analysis and scientific writing skills.\n* Ability to work independently and as part of a team.\n\n## Perks & Benefits\n* Contribute to cutting-edge scientific discoveries.\n* Opportunities for professional development.\n* Collaborative research environment.\n",
-            "application_deadline": "2025-09-12",
-            "posted_date": "2025-07-23",
-            "job_type": "Full-time",
-            "education_required": "Master's Degree",
-            "industry": "Research & Development",
-            "benefits": [
-                "Research Grants",
-                "Publication Incentives",
-                "Health Coverage"
-            ]
-        },
-        {
-            "id": "job-026",
-            "title": "School Teacher (Primary)",
-            "company_name": "BrightFuture Academy",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "2.8 LPA - 4.5 LPA",
-            "experience_level": "Junior to Mid-level (1-4 years)",
-            "company_link": "https://www.brightfutureacademy.in",
-            "skills_required": [
-                "Teaching",
-                "Curriculum Development",
-                "Classroom Management",
-                "Child Psychology",
-                "Communication",
-                "Patience"
-            ],
-            "job_description": "## About BrightFuture Academy\nBrightFuture Academy is a reputed educational institution committed to nurturing young minds. We are seeking enthusiastic Primary School Teachers to inspire our students.\n\n## Job Responsibilities\n* Plan, prepare, and deliver engaging lessons to primary school students.\n* Create a positive and inclusive classroom environment.\n* Assess and evaluate student progress.\n* Communicate effectively with parents and guardians.\n* Participate in school activities and professional development.\n\n## Job Requirements\n* Bachelor's degree in Education (B.Ed.) or relevant subject with teaching qualification.\n* **1+ year** of experience teaching primary school children.\n* Strong knowledge of primary curriculum.\n* Excellent classroom management and communication skills.\n* Passion for teaching and child development.\n\n## Perks & Benefits\n* Opportunity to shape young lives.\n* Supportive school management.\n* Professional growth programs.\n",
-            "application_deadline": "2025-08-30",
-            "posted_date": "2025-07-20",
-            "job_type": "Full-time",
-            "education_required": "B.Ed.",
-            "industry": "Education",
-            "benefits": [
-                "Health Benefits",
-                "Holiday Pay",
-                "Professional Training"
-            ]
-        },
-        {
-            "id": "job-027",
-            "title": "Hospitality Manager",
-            "company_name": "GrandStay Hotels",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "6 LPA - 10 LPA",
-            "experience_level": "Mid-level (4-7 years)",
-            "company_link": "https://www.grandstayhotels.com",
-            "skills_required": [
-                "Hotel Management",
-                "Customer Service",
-                "Team Leadership",
-                "Operations Management",
-                "Problem Solving",
-                "Budgeting"
-            ],
-            "job_description": "## About GrandStay Hotels\nGrandStay Hotels is a premium hospitality chain known for its exceptional guest experiences. We are seeking an experienced Hospitality Manager to oversee our Pune property.\n\n## Job Responsibilities\n* Oversee daily hotel operations, ensuring high standards of service.\n* Manage and motivate staff across various departments.\n* Ensure guest satisfaction and handle complaints effectively.\n* Monitor budgets and financial performance.\n* Implement strategies to improve operational efficiency and profitability.\n\n## Job Requirements\n* Bachelor's degree in Hotel Management or Hospitality.\n* **4+ years** of experience in hotel management, with at least 2 years in a supervisory role.\n* Strong leadership and interpersonal skills.\n* Excellent customer service orientation.\n* Ability to work flexible hours.\n\n## Perks & Benefits\n* Opportunity to work with a luxury brand.\n* Performance bonuses.\n* Employee accommodation discounts.\n",
-            "application_deadline": "2025-09-06",
-            "posted_date": "2025-07-28",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Hotel Management",
-            "industry": "Hospitality",
-            "benefits": [
-                "Accommodation Discount",
-                "Performance Bonus",
-                "Meal Benefits"
-            ]
-        },
-        {
-            "id": "job-028",
-            "title": "Biotechnology Research Scientist",
-            "company_name": "Genomics Forward Labs",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "7 LPA - 13 LPA",
-            "experience_level": "Mid to Senior (4+ years)",
-            "company_link": "https://www.genomicsforward.com",
-            "skills_required": [
-                "Molecular Biology",
-                "Genomics",
-                "Bioinformatics",
-                "Cell Culture",
-                "PCR",
-                "Data Interpretation",
-                "Lab Management"
-            ],
-            "job_description": "## About Genomics Forward Labs\nGenomics Forward Labs is at the cutting edge of genomic research, developing innovative solutions for healthcare and agriculture. We are seeking a skilled Biotechnology Research Scientist to join our R&D team.\n\n## Job Responsibilities\n* Design and execute experiments in molecular biology and genomics.\n* Analyze complex biological data using bioinformatics tools.\n* Develop and optimize laboratory protocols.\n* Prepare scientific reports, manuscripts, and presentations.\n* Collaborate with interdisciplinary teams on research projects.\n\n## Job Requirements\n* Ph.D. in Biotechnology, Molecular Biology, Genetics, or related field.\n* **4+ years** of relevant research experience (including Ph.D. work).\n* Strong hands-on experience with molecular biology techniques.\n* Proficiency in bioinformatics tools and statistical analysis.\n* Demonstrated publication record is a plus.\n\n## Perks & Benefits\n* Work on groundbreaking research.\n* State-of-the-art laboratory facilities.\n* Opportunities for scientific collaboration.\n",
-            "application_deadline": "2025-09-15",
-            "posted_date": "2025-07-21",
-            "job_type": "Full-time",
-            "education_required": "Ph.D.",
-            "industry": "Biotechnology",
-            "benefits": [
-                "Research Incentives",
-                "Conference Travel",
-                "Health Coverage"
-            ]
-        },
-        {
-            "id": "job-029",
-            "title": "Automotive Design Engineer",
-            "company_name": "AutoMotion Design Studio",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "6 LPA - 11 LPA",
-            "experience_level": "Mid-level (3-6 years)",
-            "company_link": "https://www.automotiondesign.com",
-            "skills_required": [
-                "CAD",
-                "SolidWorks",
-                "Product Design",
-                "Automotive Engineering",
-                "Prototyping",
-                "FEA"
-            ],
-            "job_description": "## About AutoMotion Design Studio\nAutoMotion Design Studio is a leading design firm specializing in innovative automotive components and systems. We are looking for a creative Automotive Design Engineer to join our team.\n\n## Job Responsibilities\n* Design and develop automotive parts and systems using CAD software.\n* Conduct feasibility studies and analyze design specifications.\n* Create detailed technical drawings and 3D models.\n* Collaborate with manufacturing and testing teams.\n* Participate in prototype development and testing.\n\n## Job Requirements\n* Bachelor's or Master's degree in Automotive or Mechanical Engineering.\n* **3+ years** of experience in automotive design.\n* Proficiency in CAD software (e.g., SolidWorks, CATIA, AutoCAD).\n* Strong understanding of automotive systems and manufacturing processes.\n* Excellent problem-solving and communication skills.\n\n## Perks & Benefits\n* Work on cutting-edge automotive projects.\n* Opportunities for skill enhancement.\n* Dynamic and collaborative work environment.\n",
-            "application_deadline": "2025-09-09",
-            "posted_date": "2025-07-24",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree in Engineering",
-            "industry": "Automotive",
-            "benefits": [
-                "Project Bonuses",
-                "Tooling Allowance",
-                "Flexible Hours"
-            ]
-        },
-        {
-            "id": "job-030",
-            "title": "Supply Chain Manager",
-            "company_name": "GlobalConnect Logistics",
-            "company_location": {
-                "city": "Pune",
-                "state": "Maharashtra",
-                "country": "India"
-            },
-            "job_location": "Onsite",
-            "company_logo_url": "https://placehold.co/150x150/3366FF/FFFFFF?text=",
-            "salary_range": "8 LPA - 14 LPA",
-            "experience_level": "Senior (5+ years)",
-            "company_link": "https://www.globalconnectlogistics.com",
-            "skills_required": [
-                "Supply Chain Management",
-                "Logistics",
-                "Procurement",
-                "Inventory Management",
-                "ERP Systems",
-                "Negotiation",
-                "Analytics"
-            ],
-            "job_description": "## About GlobalConnect Logistics\nGlobalConnect Logistics is a comprehensive logistics and supply chain service provider. We are seeking an experienced Supply Chain Manager to optimize our end-to-end supply chain operations.\n\n## Job Responsibilities\n* Plan and implement the overall supply chain strategy.\n* Collaborate with sales, operations, and customer service teams.\n* Manage and optimize logistics processes, including transportation and warehousing.\n* Oversee inventory management and demand forecasting.\n* Develop and maintain strong relationships with suppliers and vendors.\n* Analyze supply chain data and identify areas for improvement.\n\n## Job Requirements\n* Bachelor's or Master's degree in Supply Chain Management, Logistics, or Business.\n* **5+ years** of experience in supply chain management.\n* Strong knowledge of logistics and procurement processes.\n* Experience with ERP systems (e.g., SAP, Oracle).\n* Excellent analytical, negotiation, and leadership skills.\n\n## Perks & Benefits\n* Significant impact on business operations.\n* Performance-based incentives.\n* Opportunities for international exposure.\n",
-            "application_deadline": "2025-09-01",
-            "posted_date": "2025-07-26",
-            "job_type": "Full-time",
-            "education_required": "Bachelor's Degree",
-            "industry": "Logistics & Supply Chain",
-            "benefits": [
-                "Performance Bonus",
-                "Health Insurance",
-                "Relocation Assistance"
-            ]
-        }
+[
+  {
+    "id": "job-001",
+    "title": "Senior Python Developer",
+    "company": {
+      "name": "TechInnovate Solutions",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.techinnovatesolutions.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "12 LPA - 18 LPA",
+    "postedDate": "2025-07-25",
+    "deadline": "2025-08-30",
+    "education": "Bachelor's Degree",
+    "industry": "IT - Software Development",
+    "skills": ["Python", "Django", "REST APIs", "AWS", "SQL", "Docker", "Celery"],
+    "aboutCompany": "## About TechInnovate Solutions\nTechInnovate Solutions is a leading software development firm specializing in scalable web applications and data platforms. We are looking for a highly skilled Senior Python Developer to join our dynamic team and contribute to our cutting-edge projects.\n\n##",
+    "jobDescription": "Design and build scalable applications using Python and Django. Collaborate with cross-functional teams to define, design, and ship new features. Ensure the performance, quality, and responsiveness of applications. Identify and correct bottlenecks and fix bugs. Help maintain code quality, organization, and automatization.",
+    "responsibilities": [
+      "Develop robust and scalable web applications using Django framework",
+      "Integrate with various REST APIs and third-party services",
+      "Write clean, maintainable, and efficient code",
+      "Conduct code reviews and ensure adherence to best practices",
+      "Mentor junior engineers and contribute to team's growth"
+    ],
+    "requirements": [
+      "5+ years of experience with Python development",
+      "Strong proficiency in Django or Flask frameworks",
+      "Experience with cloud platforms like AWS and containerization with Docker",
+      "Solid understanding of database systems (SQL/NoSQL)",
+      "Excellent problem-solving and communication skills"
+    ],
+    "benefits": [
+      "Health Insurance",
+      "Paid Time Off",
+      "Flexible Hours",
+      "Performance Bonuses"
     ]
-}
+  },
+  {
+    "id": "job-002",
+    "title": "Java Full Stack Developer",
+    "company": {
+      "name": "Phi Commerce",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.phicommerce.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "13 LPA - 24 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-09-05",
+    "education": "Bachelor's Degree",
+    "industry": "Fintech",
+    "skills": ["Java", "Spring Boot", "React", "Angular", "REST APIs", "Microservices"],
+    "aboutCompany": "## About Phi Commerce\nPhi Commerce is a fast-growing fintech company revolutionizing payment solutions. We are seeking an experienced and highly skilled Java Full Stack Developer to join our dynamic team and contribute to building robust and scalable applications.\n\n##",
+    "jobDescription": "Design, develop, and maintain scalable applications using Java/Kotlin Core Concepts and Spring Boot MVC. Build and optimize REST APIs for seamless client-server communication. Work on both backend and frontend components, collaborating with cross-functional teams.",
+    "responsibilities": [
+      "Develop and maintain high-performance Java applications",
+      "Implement robust RESTful APIs",
+      "Build interactive user interfaces with React or Angular",
+      "Participate in architectural discussions and design decisions"
+    ],
+    "requirements": [
+      "3-6 years of experience in Java development",
+      "Strong background in Spring Boot and Microservices",
+      "Proficiency in JavaScript frameworks like React or Angular",
+      "Experience with database technologies (SQL/NoSQL)",
+      "Good communication and teamwork abilities"
+    ],
+    "benefits": [
+      "Health Coverage",
+      "PF/Gratuity",
+      "Performance Bonus"
+    ]
+  },
+  {
+    "id": "job-003",
+    "title": "Senior Data Scientist",
+    "company": {
+      "name": "VyTCDC",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.vytcdc.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Data Science & Analytics",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "15 LPA - 25 LPA",
+    "postedDate": "2025-07-27",
+    "deadline": "2025-09-10",
+    "education": "Master's Degree",
+    "industry": "IT - Data & Analytics",
+    "skills": ["Python", "R", "Machine Learning", "Deep Learning", "SQL", "TensorFlow", "PyTorch"],
+    "aboutCompany": "## About VyTCDC\nVyTCDC is a leading analytics firm that leverages data to drive business insights and innovation. We are looking for a highly skilled Senior Data Scientist to join our team and lead complex data projects.\n\n##",
+    "jobDescription": "Lead end-to-end data science projects, from data collection and cleaning to model deployment and monitoring. Develop and implement machine learning models to solve complex business problems. Present findings to stakeholders and contribute to data strategy.",
+    "responsibilities": [
+      "Develop and deploy predictive and prescriptive models",
+      "Perform advanced statistical analysis",
+      "Collaborate with engineering teams for data pipeline integration",
+      "Communicate complex findings to non-technical audiences"
+    ],
+    "requirements": [
+      "5+ years of experience in Data Science",
+      "Strong programming skills in Python or R",
+      "Extensive experience with machine learning and deep learning frameworks",
+      "Proficiency in SQL and data manipulation",
+      "Master's or PhD in a quantitative field"
+    ],
+    "benefits": [
+      "Professional Development",
+      "Research Opportunities",
+      "Flexible Work Options"
+    ]
+  },
+  {
+    "id": "job-004",
+    "title": "Lead DevOps Engineer",
+    "company": {
+      "name": "Qualys",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.qualys.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "DevOps & Infrastructure",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "18 LPA - 28 LPA",
+    "postedDate": "2025-07-21",
+    "deadline": "2025-09-01",
+    "education": "Bachelor's Degree",
+    "industry": "Cybersecurity",
+    "skills": ["AWS", "Azure", "Kubernetes", "Docker", "CI/CD", "Terraform", "Ansible"],
+    "aboutCompany": "## About Qualys\nQualys is a leading provider of cloud-based security and compliance solutions. We are seeking a Lead DevOps Engineer to enhance our infrastructure and automate our deployment processes.\n\n##",
+    "jobDescription": "Lead the design, implementation, and maintenance of our cloud infrastructure and CI/CD pipelines. Ensure high availability, scalability, and security of systems. Mentor junior DevOps engineers and promote best practices.",
+    "responsibilities": [
+      "Manage and optimize cloud infrastructure on AWS/Azure",
+      "Implement and maintain CI/CD pipelines",
+      "Automate deployment and operational tasks",
+      "Ensure system reliability and performance"
+    ],
+    "requirements": [
+      "6+ years of experience in DevOps",
+      "Expertise in AWS or Azure cloud platforms",
+      "Strong knowledge of Kubernetes and Docker",
+      "Proficiency with CI/CD tools (Jenkins, GitLab CI)",
+      "Experience with Infrastructure as Code (Terraform, Ansible)"
+    ],
+    "benefits": [
+      "Certification Sponsorship",
+      "Work-life Balance Programs",
+      "Generous Paid Time Off"
+    ]
+  },
+  {
+    "id": "job-005",
+    "title": "Fullstack Developer - Python/React",
+    "company": {
+      "name": "Easebuzz",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.easebuzz.in"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "8 LPA - 14 LPA",
+    "postedDate": "2025-07-26",
+    "deadline": "2025-08-28",
+    "education": "Bachelor's Degree",
+    "industry": "Fintech",
+    "skills": ["Python", "Django", "React.js", "REST APIs", "SQL"],
+    "aboutCompany": "## About Easebuzz\nEasebuzz is a fast-growing payment gateway company offering seamless digital payment solutions. We are looking for a skilled Fullstack Developer to join our product development team.\n\n##",
+    "jobDescription": "Develop and maintain both frontend and backend components of our payment platform using Python (Django) and React.js. Work closely with product managers and designers to deliver high-quality features.",
+    "responsibilities": [
+      "Develop scalable backend services with Django",
+      "Build responsive and interactive user interfaces with React.js",
+      "Collaborate on API design and integration",
+      "Ensure code quality and application performance"
+    ],
+    "requirements": [
+      "3+ years of experience in fullstack development",
+      "Proficiency in Python and Django",
+      "Strong experience with React.js",
+      "Familiarity with relational databases",
+      "Ability to work in a fast-paced environment"
+    ],
+    "benefits": [
+      "Competitive Salary",
+      "Health Benefits",
+      "Growth Opportunities"
+    ]
+  },
+  {
+    "id": "job-006",
+    "title": "UI/UX Designer",
+    "company": {
+      "name": "Blueprint Technologies",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.blueprinttech.in"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Design",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "7 LPA - 12 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-09-02",
+    "education": "Bachelor's Degree",
+    "industry": "IT Services",
+    "skills": ["Figma", "Sketch", "Adobe XD", "User Research", "Wireframing", "Prototyping"],
+    "aboutCompany": "## About Blueprint Technologies\nBlueprint Technologies is a digital transformation agency focused on crafting exceptional user experiences. We are seeking a talented UI/UX Designer with expertise in Figma to create intuitive and engaging digital products.\n\n##",
+    "jobDescription": "Design intuitive and visually appealing user interfaces for web and mobile applications. Conduct user research, create wireframes, prototypes, and user flows. Collaborate with development teams to ensure design implementation meets specifications.",
+    "responsibilities": [
+      "Conduct user research and usability testing",
+      "Create wireframes, mockups, and interactive prototypes",
+      "Develop and maintain design systems",
+      "Collaborate with product and engineering teams"
+    ],
+    "requirements": [
+      "3+ years of experience in UI/UX design",
+      "Strong proficiency with Figma",
+      "Solid understanding of user-centered design principles",
+      "Portfolio showcasing design projects",
+      "Excellent communication and presentation skills"
+    ],
+    "benefits": [
+      "Creative Work Environment",
+      "Skill Development Programs",
+      "Team Building Activities"
+    ]
+  },
+  {
+    "id": "job-007",
+    "title": "Business Analyst",
+    "company": {
+      "name": "Mastercard",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.mastercard.com"
+    },
+    "job_type": "Contract",
+    "experience": "Mid-Level",
+    "category": "Business Analysis",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "9 LPA - 16 LPA",
+    "postedDate": "2025-07-24",
+    "deadline": "2025-08-31",
+    "education": "Bachelor's Degree",
+    "industry": "Financial Services",
+    "skills": ["Business Process Mapping", "Requirements Gathering", "SQL", "Data Analysis", "Jira"],
+    "aboutCompany": "## About Mastercard\nMastercard is a global technology company in the payments industry, connecting consumers, financial institutions, merchants, governments and businesses worldwide. We are seeking a Business Analyst to join our team in Pune and contribute to our innovative payment solutions.\n\n##",
+    "jobDescription": "Analyze business requirements and translate them into functional specifications. Collaborate with stakeholders to define project scope and objectives. Support the development team throughout the software development lifecycle.",
+    "responsibilities": [
+      "Gather and document business requirements",
+      "Perform data analysis to identify trends and insights",
+      "Facilitate communication between business and technical teams",
+      "Create process flows and use cases"
+    ],
+    "requirements": [
+      "3+ years of experience as a Business Analyst",
+      "Strong analytical and problem-solving skills",
+      "Experience with agile methodologies",
+      "Proficiency in SQL is a plus",
+      "Excellent communication and interpersonal skills"
+    ],
+    "benefits": [
+      "Global Exposure",
+      "Comprehensive Benefits Package",
+      "Career Growth Opportunities"
+    ]
+  },
+  {
+    "id": "job-008",
+    "title": "Digital Marketing Specialist",
+    "company": {
+      "name": "dentsu",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.dentsu.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Marketing",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "6 LPA - 10 LPA",
+    "postedDate": "2025-07-25",
+    "deadline": "2025-08-29",
+    "education": "Bachelor's Degree",
+    "industry": "Advertising & Marketing",
+    "skills": ["SEO", "SEM", "Social Media Marketing", "Content Marketing", "Google Analytics"],
+    "aboutCompany": "## About dentsu\ndentsu is a global agency network that innovates the way brands are built. We are looking for a Digital Marketing Specialist to manage and optimize our digital campaigns and drive online presence for our clients.\n\n##",
+    "jobDescription": "Plan, execute, and optimize digital marketing campaigns across various channels, including SEO, SEM, social media, and email. Analyze campaign performance and provide actionable insights. Stay updated with industry trends and best practices.",
+    "responsibilities": [
+      "Develop and implement digital marketing strategies",
+      "Manage paid advertising campaigns (Google Ads, Social Media Ads)",
+      "Optimize website content for SEO",
+      "Analyze campaign data and generate reports"
+    ],
+    "requirements": [
+      "2-4 years of experience in Digital Marketing",
+      "Proven track record in SEO and SEM",
+      "Familiarity with marketing analytics tools (Google Analytics)",
+      "Strong content creation and communication skills",
+      "Bachelor's degree in Marketing or related field"
+    ],
+    "benefits": [
+      "Dynamic Work Environment",
+      "Learning & Development Programs",
+      "Employee Recognition"
+    ]
+  },
+  {
+    "id": "job-009",
+    "title": "HR Manager",
+    "company": {
+      "name": "Radisson Hotel Group",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.radissonhotels.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Human Resources",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "10 LPA - 15 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-09-08",
+    "education": "Master's Degree",
+    "industry": "Hospitality",
+    "skills": ["Recruitment", "Employee Relations", "HR Policies", "Performance Management", "Compliance"],
+    "aboutCompany": "## About Radisson Hotel Group\nRadisson Hotel Group is one of the world's largest hotel groups with seven distinctive hotel brands, and more than 1,100 hotels in operation and under development in EMEA, Asia Pacific and Americas. We are seeking an experienced HR Manager to oversee our human resources operations in Pune.\n\n##",
+    "jobDescription": "Oversee all HR functions, including recruitment, employee relations, performance management, and HR policy implementation. Ensure compliance with labor laws and foster a positive work environment. Develop and implement HR strategies aligned with business goals.",
+    "responsibilities": [
+      "Manage end-to-end recruitment process",
+      "Handle employee relations and conflict resolution",
+      "Develop and implement HR policies and procedures",
+      "Oversee performance management and employee development"
+    ],
+    "requirements": [
+      "5+ years of experience as an HR Manager",
+      "Strong knowledge of Indian labor laws",
+      "Excellent interpersonal and communication skills",
+      "Master's degree in Human Resources or related field",
+      "Experience in the hospitality sector is a plus"
+    ],
+    "benefits": [
+      "Accommodation Discounts",
+      "Meal Benefits",
+      "Health & Wellness Programs"
+    ]
+  },
+  {
+    "id": "job-010",
+    "title": "Accountant",
+    "company": {
+      "name": "TERCELHERBS PRIVATE LIMITED",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.tercelherbs.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Finance",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "4 LPA - 7 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-08-25",
+    "education": "Bachelor's Degree",
+    "industry": "Manufacturing",
+    "skills": ["Tally ERP", "GST", "Balance Sheet", "Financial Reporting", "MS Excel"],
+    "aboutCompany": "## About TERCELHERBS PRIVATE LIMITED\nTERCELHERBS PRIVATE LIMITED is a growing manufacturing company specializing in herbal products. We are seeking a diligent and experienced Accountant to manage our financial records and ensure compliance.\n\n##",
+    "jobDescription": "Manage day-to-day accounting operations, including accounts payable, accounts receivable, and general ledger. Prepare financial statements, reconcile accounts, and ensure compliance with GST regulations. Assist with audits and financial reporting.",
+    "responsibilities": [
+      "Maintain accurate financial records and ledgers",
+      "Prepare monthly, quarterly, and annual financial statements",
+      "Handle GST filings and tax compliance",
+      "Process invoices and manage payroll",
+      "Reconcile bank statements and other accounts"
+    ],
+    "requirements": [
+      "2-5 years of experience as an Accountant",
+      "Proficiency in Tally ERP and MS Excel",
+      "Strong knowledge of GST and Indian accounting standards",
+      "Ability to work independently and meet deadlines",
+      "Bachelor's degree in Commerce or Accounting"
+    ],
+    "benefits": [
+      "Provident Fund",
+      "Paid Leaves",
+      "Annual Bonus"
+    ]
+  },
+  {
+    "id": "job-011",
+    "title": "Customer Support Associate",
+    "company": {
+      "name": "Genesis HR Services",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.genesishr.in"
+    },
+    "job_type": "Part-time",
+    "experience": "Fresher",
+    "category": "Customer Service",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "3.97 LPA - 4.92 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-08-27",
+    "education": "Any Graduate/UG",
+    "industry": "BPO / Call Center",
+    "skills": ["Communication Skills", "Problem Solving", "Customer Relationship Management", "Basic Computer Knowledge"],
+    "aboutCompany": "## About Genesis HR Services\nGenesis HR Services is a leading HR consulting firm that provides comprehensive staffing solutions. We are currently hiring for our client, seeking dedicated Customer Support Associates to deliver excellent service.\n\n##",
+    "jobDescription": "Handle international customer support queries via voice and email. Resolve customer issues efficiently and professionally. Maintain accurate records of customer interactions and ensure customer satisfaction.",
+    "responsibilities": [
+      "Respond to customer inquiries via phone and email",
+      "Troubleshoot and resolve customer issues",
+      "Provide information about products and services",
+      "Maintain a high level of customer satisfaction"
+    ],
+    "requirements": [
+      "0-1 year of experience in customer support (freshers can apply)",
+      "Excellent verbal and written communication skills in English",
+      "Ability to work in rotational shifts, including night shifts",
+      "Basic computer proficiency",
+      "Any Graduate/Undergraduate"
+    ],
+    "benefits": [
+      "Commuter Assistance (Cab Facility)",
+      "Health Insurance",
+      "Provident Fund",
+      "Performance Bonuses"
+    ]
+  },
+  {
+    "id": "job-012",
+    "title": "Senior Backend Developer (Java)",
+    "company": {
+      "name": "AdElement Media Solutions Pvt. Ltd.",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.adelement.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Hybrid",
+    "salary": "18 LPA - 30 LPA",
+    "postedDate": "2025-07-29",
+    "deadline": "2025-09-15",
+    "education": "Bachelor's Degree",
+    "industry": "AdTech",
+    "skills": ["Java", "Spring Boot", "Microservices", "Kafka", "PostgreSQL", "AWS"],
+    "aboutCompany": "## About AdElement Media Solutions Pvt. Ltd.\nAdElement Media Solutions Pvt. Ltd. is an innovative AdTech company focused on building high-performance advertising platforms. We are looking for a Senior Backend Developer with strong Java and Spring Boot experience to join our core engineering team.\n\n##",
+    "jobDescription": "Design, develop, test, and deploy scalable and robust backend services using Java & Spring Boot. Work on high-traffic, low-latency systems. Collaborate with frontend developers and product managers to deliver features.",
+    "responsibilities": [
+      "Develop and optimize backend services using Java and Spring Boot",
+      "Implement and maintain microservices architecture",
+      "Work with message queues like Apache Kafka",
+      "Ensure high performance and responsiveness of applications"
+    ],
+    "requirements": [
+      "5+ years of experience in Java backend development",
+      "Extensive experience with Spring Boot and Microservices",
+      "Familiarity with distributed systems and message brokers",
+      "Proficiency in SQL databases (e.g., PostgreSQL)",
+      "Experience with cloud deployments (AWS preferred)"
+    ],
+    "benefits": [
+      "Flexible Work Policy",
+      "Health and Wellness Programs",
+      "Competitive Compensation"
+    ]
+  },
+  {
+    "id": "job-013",
+    "title": "Software Engineer - Data Engineering",
+    "company": {
+      "name": "GroundTruth",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote, India",
+      "website": "https://www.groundtruth.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Data Engineering",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "10 LPA - 16 LPA",
+    "postedDate": "2025-07-22",
+    "deadline": "2025-09-01",
+    "education": "Bachelor's Degree",
+    "industry": "Advertising Technology",
+    "skills": ["Spark", "Python", "SQL", "AWS", "ETL", "Data Pipelines"],
+    "aboutCompany": "## About GroundTruth\nGroundTruth is a global leader in location-based marketing and advertising technology. We are seeking a Software Engineer specializing in Data Engineering to join our remote team in India and build scalable data solutions.\n\n##",
+    "jobDescription": "Design, develop, and maintain scalable and robust data pipelines using Spark and Python. Work on large datasets to support data analytics and machine learning initiatives. Optimize data workflows and ensure data quality.",
+    "responsibilities": [
+      "Build and optimize ETL processes for large-scale data",
+      "Develop and maintain data warehouses and data lakes",
+      "Implement data quality checks and monitoring",
+      "Collaborate with data scientists and analysts"
+    ],
+    "requirements": [
+      "3+ years of experience in Data Engineering",
+      "Strong proficiency in Spark and Python",
+      "Experience with cloud-based data services (AWS preferred)",
+      "Solid understanding of SQL and data warehousing concepts",
+      "Familiarity with big data technologies"
+    ],
+    "benefits": [
+      "Work from Home setup assistance",
+      "Flexible Schedule",
+      "Health & Life Insurance"
+    ]
+  },
+  {
+    "id": "job-014",
+    "title": "Senior Product Manager",
+    "company": {
+      "name": "Checkmate",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Mumbai, Maharashtra, India",
+      "website": "https://www.checkmate.com"
+    },
+    "job_type": "Contract",
+    "experience": "Senior",
+    "category": "Product Management",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "20 LPA - 35 LPA",
+    "postedDate": "2025-07-30",
+    "deadline": "2025-09-20",
+    "education": "Bachelor's Degree",
+    "industry": "Software",
+    "skills": ["Product Strategy", "Roadmapping", "Agile", "Market Research", "Stakeholder Management"],
+    "aboutCompany": "## About Checkmate\nCheckmate is a rapidly growing software company focused on innovative solutions for the modern workplace. We are seeking a Senior Product Manager to drive the strategy and roadmap for our platform and integrations team, working remotely from Mumbai or anywhere in India.\n\n##",
+    "jobDescription": "Define and execute the product strategy and roadmap for key platform features and integrations. Conduct market research, gather user requirements, and work closely with engineering and design teams to deliver impactful products.",
+    "responsibilities": [
+      "Own the product roadmap and strategy for assigned areas",
+      "Define and prioritize product requirements",
+      "Collaborate with engineering, design, and sales teams",
+      "Conduct market analysis and competitive research"
+    ],
+    "requirements": [
+      "5+ years of experience in Product Management",
+      "Proven track record of launching successful software products",
+      "Strong understanding of agile methodologies",
+      "Excellent analytical and strategic thinking skills",
+      "Ability to work effectively in a remote environment"
+    ],
+    "benefits": [
+      "Performance-based Incentives",
+      "Stock Options",
+      "Remote Work Flexibility"
+    ]
+  },
+  {
+    "id": "job-015",
+    "title": "Content Writer",
+    "company": {
+      "name": "CACTUS",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote, India",
+      "website": "https://www.cactusglobal.com"
+    },
+    "job_type": "Contract",
+    "experience": "Mid-Level",
+    "category": "Content & Editorial",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "4 LPA - 8 LPA",
+    "postedDate": "2025-07-26",
+    "deadline": "2025-08-25",
+    "education": "Bachelor's Degree",
+    "industry": "Publishing",
+    "skills": ["Content Creation", "Editing", "SEO Writing", "Research", "Communication"],
+    "aboutCompany": "## About CACTUS\nCACTUS is a global scientific and medical communications company, helping researchers and clinicians disseminate their work. We are seeking a talented Content Writer to contribute to our various publications and digital content.\n\n##",
+    "jobDescription": "Write and edit high-quality content for various platforms, including articles, blog posts, and marketing materials. Ensure content is accurate, engaging, and aligned with brand guidelines. Conduct research on relevant topics.",
+    "responsibilities": [
+      "Produce engaging and well-researched content",
+      "Edit and proofread content for clarity and accuracy",
+      "Optimize content for search engines (SEO)",
+      "Collaborate with subject matter experts"
+    ],
+    "requirements": [
+      "2+ years of experience in content writing",
+      "Excellent written communication skills",
+      "Ability to research and understand complex topics",
+      "Experience with SEO best practices",
+      "Bachelor's degree in English, Journalism, or related field"
+    ],
+    "benefits": [
+      "Flexible Working Hours",
+      "Learning Opportunities",
+      "Work-life Balance"
+    ]
+  },
+  {
+    "id": "job-016",
+    "title": "Telesales Executive",
+    "company": {
+      "name": "5Paisa",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Noida (Remote Option), India",
+      "website": "https://www.5paisa.com"
+    },
+    "job_type": "Internship",
+    "experience": "Fresher",
+    "category": "Sales",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "2 LPA - 3 LPA",
+    "postedDate": "2025-07-29",
+    "deadline": "2025-08-28",
+    "education": "12th Pass",
+    "industry": "Financial Services",
+    "skills": ["Telesales", "Communication", "Customer Service", "Sales Skills"],
+    "aboutCompany": "## About 5Paisa\n5Paisa is a rapidly growing discount brokerage firm offering online trading and investment services. We are looking for energetic Telesales Executives to join our team and contribute to our customer acquisition efforts, with remote options available.\n\n##",
+    "jobDescription": "Initiate outbound calls to potential customers to explain financial products and services. Identify customer needs and offer suitable solutions. Achieve daily and monthly sales targets. Maintain customer relationships and provide excellent service.",
+    "responsibilities": [
+      "Make outbound calls to generate leads and sales",
+      "Educate customers about financial products",
+      "Meet individual and team sales targets",
+      "Maintain a database of customer interactions"
+    ],
+    "requirements": [
+      "0-1 year of experience in telesales (freshers welcome)",
+      "Excellent verbal communication skills in Hindi and English",
+      "Ability to persuade and negotiate",
+      "Customer-focused attitude",
+      "High school diploma or equivalent"
+    ],
+    "benefits": [
+      "Sales Incentives",
+      "Training Provided",
+      "Flexible Remote Work"
+    ]
+  },
+  {
+    "id": "job-017",
+    "title": "Technical Support Engineer",
+    "company": {
+      "name": "ToolJet",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote, India",
+      "website": "https://tooljet.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Junior",
+    "category": "IT Support",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "5 LPA - 7 LPA",
+    "postedDate": "2025-05-30",
+    "deadline": "2025-08-30",
+    "education": "Bachelor's Degree",
+    "industry": "Software Development",
+    "skills": ["Troubleshooting", "Customer Support", "Technical Documentation", "SQL", "Linux"],
+    "aboutCompany": "## About ToolJet\nToolJet is an open-source low-code platform for building and deploying internal tools. We are expanding our team and seeking a Technical Support Engineer to assist our users and ensure their success with the platform.\n\n##",
+    "jobDescription": "Provide technical assistance and support to users regarding the ToolJet platform. Troubleshoot issues, resolve technical problems, and escalate complex cases to the engineering team. Create and maintain technical documentation and FAQs.",
+    "responsibilities": [
+      "Respond to technical support queries via various channels",
+      "Diagnose and resolve technical issues for users",
+      "Document solutions and create knowledge base articles",
+      "Collaborate with product and engineering teams to improve the product"
+    ],
+    "requirements": [
+      "1-3 years of experience in technical support",
+      "Strong problem-solving and analytical skills",
+      "Familiarity with web technologies and database concepts (SQL)",
+      "Excellent communication skills, both written and verbal",
+      "Bachelor's degree in Computer Science or related field"
+    ],
+    "benefits": [
+      "Remote Work Environment",
+      "Professional Growth",
+      "Open-source Contribution Opportunities"
+    ]
+  },
+  {
+    "id": "job-018",
+    "title": "Senior AI Engineer - Autonomous Agentic Systems",
+    "company": {
+      "name": "Spry",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.spry.ai"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Artificial Intelligence",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "18 LPA - 30 LPA",
+    "postedDate": "2025-07-27",
+    "deadline": "2025-09-10",
+    "education": "Master's Degree",
+    "industry": "Artificial Intelligence",
+    "skills": ["Generative AI", "LLMs", "Microservices", "Python", "Prompt Engineering"],
+    "aboutCompany": "## About Spry\nSpry is an innovative AI company building the next generation of autonomous agentic systems. We are seeking a highly experienced Senior AI Engineer to lead the development of our cutting-edge AI solutions.\n\n##",
+    "jobDescription": "Lead the research, design, and implementation of advanced AI models for autonomous agentic systems. Focus on Generative AI and Large Language Models (LLMs). Work in a microservices environment and contribute to prompt engineering strategies.",
+    "responsibilities": [
+      "Develop and deploy advanced AI models, particularly LLMs",
+      "Architect and implement scalable AI microservices",
+      "Conduct research in cutting-edge AI techniques",
+      "Optimize and fine-tune AI models for performance"
+    ],
+    "requirements": [
+      "5+ years of experience in AI/ML engineering",
+      "Strong expertise in Generative AI and LLMs",
+      "Proficiency in Python and relevant AI/ML frameworks",
+      "Experience with microservices architecture",
+      "Master's or PhD in AI, Computer Science, or related field"
+    ],
+    "benefits": [
+      "Cutting-edge Technology",
+      "Research Opportunities",
+      "Competitive Compensation"
+    ]
+  },
+  {
+    "id": "job-019",
+    "title": "Senior Software Engineer (.NET)",
+    "company": {
+      "name": "Data Axle",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.dataaxle.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "12 LPA - 20 LPA",
+    "postedDate": "2025-07-25",
+    "deadline": "2025-09-05",
+    "education": "Bachelor's Degree",
+    "industry": "Data & Marketing Solutions",
+    "skills": [".NET", "C#", "ASP.NET", "Angular", "SQL Server", "Azure"],
+    "aboutCompany": "## About Data Axle\nData Axle is a leading provider of data and marketing solutions, empowering businesses with actionable insights. We are seeking a Senior Software Engineer with strong .NET and Angular skills to join our development team in Pune.\n\n##",
+    "jobDescription": "Design, develop, and maintain high-performance web applications using .NET, C#, and Angular. Work on complex data-driven solutions and integrate with various APIs. Ensure code quality, scalability, and security.",
+    "responsibilities": [
+      "Develop and maintain robust .NET applications",
+      "Build interactive frontend interfaces using Angular",
+      "Collaborate with cross-functional teams on solution design",
+      "Ensure code quality and adhere to coding standards"
+    ],
+    "requirements": [
+      "5+ years of experience in .NET development",
+      "Strong proficiency in C# and ASP.NET",
+      "Experience with Angular framework",
+      "Proficiency in SQL Server",
+      "Familiarity with Azure cloud services"
+    ],
+    "benefits": [
+      "Health and Dental Insurance",
+      "Paid Parental Leave",
+      "Employee Wellness Programs"
+    ]
+  },
+  {
+    "id": "job-020",
+    "title": "Software Engineer (Golang)",
+    "company": {
+      "name": "Velotio Technologies",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote (Pune preference), India",
+      "website": "https://www.velotio.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Software Development",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "10 LPA - 16 LPA",
+    "postedDate": "2025-04-30",
+    "deadline": "2025-08-30",
+    "education": "Bachelor's Degree",
+    "industry": "IT Services",
+    "skills": ["Golang", "Microservices", "REST APIs", "AWS", "Docker", "Kubernetes"],
+    "aboutCompany": "## About Velotio Technologies\nVelotio Technologies is a product engineering company specializing in cloud-native and AI/ML solutions. We are seeking a skilled Software Engineer with expertise in Golang to join our remote team in India, with a preference for candidates from Pune.\n\n##",
+    "jobDescription": "Develop and maintain high-performance backend services using Golang. Design and implement microservices architectures. Work on cloud-native applications and integrate with various third-party services.",
+    "responsibilities": [
+      "Write clean, efficient, and scalable Go code",
+      "Design and implement RESTful APIs",
+      "Build and deploy microservices on cloud platforms",
+      "Participate in code reviews and architectural discussions"
+    ],
+    "requirements": [
+      "3+ years of experience with Golang development",
+      "Strong understanding of microservices architecture",
+      "Experience with cloud platforms (AWS, GCP, or Azure)",
+      "Familiarity with Docker and Kubernetes",
+      "Problem-solving and debugging skills"
+    ],
+    "benefits": [
+      "Remote First Policy",
+      "Learning Stipend",
+      "ESOPs for eligible employees"
+    ]
+  },
+  {
+    "id": "job-021",
+    "title": "Lead Engineer - Fullstack (Golang/Java)",
+    "company": {
+      "name": "Sahaj Software",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.sahaj.ai"
+    },
+    "job_type": "Part-time",
+    "experience": "Senior",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "20 LPA - 35 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-09-15",
+    "education": "Bachelor's Degree",
+    "industry": "IT Consulting",
+    "skills": ["Golang", "Java", "Python", "React", "Angular", "Cloud Computing", "Architecture"],
+    "aboutCompany": "## About Sahaj Software\nSahaj Software is a technology consulting firm focused on building scalable and resilient software solutions. We are seeking a Lead Engineer with strong full-stack capabilities in Golang or Java to drive our engineering initiatives.\n\n##",
+    "jobDescription": "Lead the design, development, and deployment of complex software systems. Provide technical leadership and mentorship to a team of engineers. Ensure the adoption of best practices in software development and architecture. Work across the full stack, with a focus on Golang and Java.",
+    "responsibilities": [
+      "Provide technical leadership and guidance to the team",
+      "Architect and design scalable software solutions",
+      "Develop high-quality code across frontend and backend",
+      "Conduct code reviews and ensure adherence to best practices"
+    ],
+    "requirements": [
+      "7+ years of experience in software development",
+      "Strong expertise in Golang or Java, with full-stack capabilities",
+      "Experience with cloud platforms (AWS, Azure, GCP)",
+      "Proven ability to lead and mentor engineers",
+      "Excellent problem-solving and communication skills"
+    ],
+    "benefits": [
+      "Leadership Development",
+      "Innovation Labs",
+      "Competitive Pay"
+    ]
+  },
+  {
+    "id": "job-022",
+    "title": "Data Analyst (Remote)",
+    "company": {
+      "name": "NeoGenCode Technologies Pvt Ltd",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote, India",
+      "website": "https://www.neogencode.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Data Analytics",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "15 LPA - 25 LPA",
+    "postedDate": "2025-07-28",
+    "deadline": "2025-09-12",
+    "education": "Bachelor's Degree",
+    "industry": "IT - Software Development",
+    "skills": ["Power BI", "Tableau", "Advanced Excel", "Data Analysis", "SQL", "Executive Reporting"],
+    "aboutCompany": "## About NeoGenCode Technologies Pvt Ltd\nNeoGenCode Technologies is a dynamic IT firm providing cutting-edge solutions across various domains. We are seeking a skilled Data Analyst to lead strategic dashboard development and executive-level reporting for our remote team in India.\n\n##",
+    "jobDescription": "Lead the development of strategic dashboards and quarterly board reports using tools like Power BI or Tableau. Bridge the gap between technical insights and business strategy. Deliver high-impact reports that drive executive decision-making.",
+    "responsibilities": [
+      "Build and manage executive dashboards using Power BI/Tableau",
+      "Create compelling narratives and presentations from data",
+      "Perform in-depth data analysis to identify trends and insights",
+      "Collaborate with stakeholders to understand reporting needs"
+    ],
+    "requirements": [
+      "3+ years of experience in Data Analysis",
+      "Mandatory skills in Power BI or Tableau, and Advanced Excel",
+      "Experience with executive reporting and strategic dashboarding",
+      "Strong SQL skills",
+      "Excellent storytelling and communication skills"
+    ],
+    "benefits": [
+      "Work from Anywhere",
+      "Health Benefits",
+      "Career Development"
+    ]
+  },
+  {
+    "id": "job-023",
+    "title": "Senior Site Reliability Engineer",
+    "company": {
+      "name": "Reliable Systems",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Remote, Maharashtra, India",
+      "website": "https://www.reliablesystems.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "DevOps & SRE",
+    "location": "Remote",
+    "workMode": "Remote",
+    "salary": "15 LPA - 22 LPA",
+    "postedDate": "2025-07-22",
+    "deadline": "2025-09-01",
+    "education": "Bachelor's Degree",
+    "industry": "Cloud Computing",
+    "skills": ["SRE", "Cloud Platforms", "Kubernetes", "Monitoring", "Automation", "Incident Management"],
+    "aboutCompany": "## About Reliable Systems\nReliable Systems is a leading provider of cloud infrastructure solutions, committed to building highly available and scalable systems. We are seeking a Senior Site Reliability Engineer to join our remote team in Maharashtra.\n\n##",
+    "jobDescription": "Design, implement, and maintain highly reliable and scalable infrastructure. Focus on automation, monitoring, and incident response. Drive best practices for site reliability and operational excellence.",
+    "responsibilities": [
+      "Develop and maintain infrastructure as code",
+      "Implement robust monitoring and alerting systems",
+      "Automate operational tasks and processes",
+      "Participate in on-call rotations and incident management"
+    ],
+    "requirements": [
+      "5+ years of experience in SRE or DevOps",
+      "Strong experience with cloud platforms (AWS/Azure/GCP)",
+      "Proficiency in containerization (Docker, Kubernetes)",
+      "Experience with scripting languages (Python, Go)",
+      "Solid understanding of distributed systems"
+    ],
+    "benefits": [
+      "Remote Work Flexibility",
+      "Continuous Learning",
+      "Comprehensive Health Plan"
+    ]
+  },
+  {
+    "id": "job-024",
+    "title": "Lead Business Analyst - Compliance",
+    "company": {
+      "name": "Mastercard",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.mastercard.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Business Analysis",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "14 LPA - 22 LPA",
+    "postedDate": "2025-07-27",
+    "deadline": "2025-09-10",
+    "education": "Bachelor's Degree",
+    "industry": "Financial Services",
+    "skills": ["Compliance", "Regulatory Reporting", "Business Process Modeling", "Risk Management", "SQL"],
+    "aboutCompany": "## About Mastercard\nMastercard is a global technology company in the payments industry, committed to innovation and security. We are seeking a Lead Business Analyst specializing in Compliance to strengthen our team in Pune.\n\n##",
+    "jobDescription": "Lead the analysis of compliance requirements and translate them into actionable business and technical specifications. Work closely with legal, risk, and technology teams to ensure regulatory adherence. Develop and implement compliance frameworks.",
+    "responsibilities": [
+      "Analyze and interpret regulatory requirements",
+      "Develop and document compliance processes",
+      "Collaborate with development teams to implement compliance solutions",
+      "Conduct impact assessments for new regulations"
+    ],
+    "requirements": [
+      "5+ years of experience in Business Analysis, with a focus on compliance",
+      "Strong understanding of financial industry regulations",
+      "Experience with business process modeling and requirements gathering",
+      "Ability to work effectively with diverse stakeholders",
+      "Excellent analytical and communication skills"
+    ],
+    "benefits": [
+      "Professional Development",
+      "Global Network",
+      "Employee Stock Purchase Plan"
+    ]
+  },
+  {
+    "id": "job-025",
+    "title": "Senior Frontend Developer (React)",
+    "company": {
+      "name": "WebCrafters Studio",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.webcrafters.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Software Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "10 LPA - 16 LPA",
+    "postedDate": "2025-07-20",
+    "deadline": "2025-08-25",
+    "education": "Bachelor's Degree",
+    "industry": "IT Services",
+    "skills": ["React.js", "JavaScript", "HTML5", "CSS3", "Redux", "RESTful APIs"],
+    "aboutCompany": "## About WebCrafters Studio\nWebCrafters Studio is a dynamic digital agency specializing in crafting engaging web experiences. We are searching for a highly skilled Senior Frontend Developer with expertise in React to build exceptional user interfaces for our diverse client base.\n\n##",
+    "jobDescription": "Develop and maintain high-performance, scalable, and responsive user interfaces using React.js. Collaborate with UI/UX designers and backend developers to deliver a seamless user experience. Implement best practices for frontend development and performance optimization.",
+    "responsibilities": [
+      "Develop and enhance user-facing features using React.js",
+      "Ensure the technical feasibility of UI/UX designs",
+      "Optimize applications for maximum speed and scalability",
+      "Write reusable, testable, and efficient code"
+    ],
+    "requirements": [
+      "5+ years of experience in frontend development with React.js",
+      "Strong proficiency in JavaScript, HTML5, and CSS3",
+      "Experience with state management libraries like Redux",
+      "Familiarity with RESTful APIs",
+      "Solid understanding of cross-browser compatibility issues"
+    ],
+    "benefits": [
+      "Creative Atmosphere",
+      "Skill Enhancement Workshops",
+      "Flexible Work Hours"
+    ]
+  },
+  {
+    "id": "job-026",
+    "title": "Cloud Architect",
+    "company": {
+      "name": "CloudNine Solutions",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.cloudninesolutions.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Expert",
+    "category": "Cloud & Infrastructure",
+    "location": "Pune",
+    "workMode": "Hybrid",
+    "salary": "25 LPA - 40 LPA",
+    "postedDate": "2025-07-29",
+    "deadline": "2025-09-20",
+    "education": "Master's Degree",
+    "industry": "IT Consulting",
+    "skills": ["AWS", "Azure", "GCP", "Cloud Architecture", "Solution Design", "Security", "DevOps"],
+    "aboutCompany": "## About CloudNine Solutions\nCloudNine Solutions is a premier cloud consulting firm, assisting enterprises in their digital transformation journeys. We are seeking an accomplished Cloud Architect to design and implement robust cloud solutions for our diverse clientele.\n\n##",
+    "jobDescription": "Lead the design and implementation of complex cloud architectures on AWS, Azure, or GCP. Provide strategic guidance on cloud adoption, migration, and optimization. Ensure security, scalability, and cost-effectiveness of cloud solutions.",
+    "responsibilities": [
+      "Design and implement secure and scalable cloud architectures",
+      "Provide technical leadership for cloud projects",
+      "Evaluate new cloud technologies and propose solutions",
+      "Ensure compliance with industry standards and best practices"
+    ],
+    "requirements": [
+      "10+ years of experience in IT, with 5+ years in cloud architecture",
+      "Expertise in at least one major cloud platform (AWS, Azure, or GCP)",
+      "Strong understanding of cloud security, networking, and governance",
+      "Experience with DevOps principles and tools",
+      "Master's degree in Computer Science or related field"
+    ],
+    "benefits": [
+      "Executive Compensation",
+      "Global Project Exposure",
+      "Continuous Innovation"
+    ]
+  },
+  {
+    "id": "job-027",
+    "title": "Mobile App Developer (Flutter)",
+    "company": {
+      "name": "MobileTech Innovations",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.mobiletechinnovations.com"
+    },
+    "job_type": "Part-time",
+    "experience": "Mid-Level",
+    "category": "Mobile Development",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "8 LPA - 14 LPA",
+    "postedDate": "2025-07-23",
+    "deadline": "2025-08-27",
+    "education": "Bachelor's Degree",
+    "industry": "Mobile Software",
+    "skills": ["Flutter", "Dart", "Android Development", "iOS Development", "REST APIs"],
+    "aboutCompany": "## About MobileTech Innovations\nMobileTech Innovations is a dynamic company specializing in creating cutting-edge mobile applications for various industries. We are looking for a talented Mobile App Developer with expertise in Flutter to join our growing team.\n\n##",
+    "jobDescription": "Develop and maintain high-quality mobile applications for iOS and Android using Flutter. Collaborate with cross-functional teams to define, design, and ship new features. Ensure the performance, quality, and responsiveness of applications.",
+    "responsibilities": [
+      "Develop cross-platform mobile applications with Flutter",
+      "Write clean, maintainable, and efficient Dart code",
+      "Integrate with backend services via REST APIs",
+      "Perform testing and debugging to ensure app quality"
+    ],
+    "requirements": [
+      "2-4 years of experience in mobile app development with Flutter",
+      "Strong proficiency in Dart programming language",
+      "Experience with native Android/iOS development is a plus",
+      "Familiarity with state management solutions (e.g., Provider, BLoC)",
+      "Portfolio of published Flutter applications"
+    ],
+    "benefits": [
+      "Creative Work Environment",
+      "Skill Development",
+      "Team Lunches"
+    ]
+  },
+  {
+    "id": "job-028",
+    "title": "Technical Writer",
+    "company": {
+      "name": "DocuTech Solutions",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.docutechsolutions.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Mid-Level",
+    "category": "Content & Documentation",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "5 LPA - 9 LPA",
+    "postedDate": "2025-07-26",
+    "deadline": "2025-08-30",
+    "education": "Bachelor's Degree",
+    "industry": "IT - Software",
+    "skills": ["Technical Documentation", "API Documentation", "User Guides", "Confluence", "Markdown"],
+    "aboutCompany": "## About DocuTech Solutions\nDocuTech Solutions specializes in creating clear, concise, and comprehensive technical documentation for software products. We are seeking a skilled Technical Writer to join our team in Pune and help us build excellent documentation for our clients.\n\n##",
+    "jobDescription": "Create and maintain technical documentation, including API documentation, user guides, and release notes. Collaborate with software engineers, product managers, and QA teams to ensure accuracy and completeness of information. Simplify complex technical concepts for various audiences.",
+    "responsibilities": [
+      "Write clear, concise, and accurate technical documentation",
+      "Collaborate with technical teams to gather information",
+      "Organize and maintain documentation repositories",
+      "Ensure consistency in terminology and style"
+    ],
+    "requirements": [
+      "3+ years of experience as a Technical Writer",
+      "Ability to understand and explain complex technical concepts",
+      "Experience with documentation tools (e.g., Confluence, Swagger)",
+      "Strong English language skills",
+      "Bachelor's degree in a technical field or English/Communications"
+    ],
+    "benefits": [
+      "Health Coverage",
+      "Professional Development",
+      "Friendly Work Environment"
+    ]
+  },
+  {
+    "id": "job-029",
+    "title": "Senior Network Engineer",
+    "company": {
+      "name": "NetSecure Systems",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.netsecuresystems.com"
+    },
+    "job_type": "Contract",
+    "experience": "Senior",
+    "category": "Networking",
+    "location": "Pune",
+    "workMode": "Onsite",
+    "salary": "12 LPA - 18 LPA",
+    "postedDate": "2025-07-27",
+    "deadline": "2025-09-05",
+    "education": "Bachelor's Degree",
+    "industry": "IT - Networking",
+    "skills": ["Cisco", "Routing & Switching", "Firewalls", "Network Security", "Troubleshooting", "VPN"],
+    "aboutCompany": "## About NetSecure Systems\nNetSecure Systems is a leading provider of secure networking solutions, serving diverse enterprise clients. We are seeking a highly experienced Senior Network Engineer to design, implement, and maintain our advanced network infrastructure in Pune.\n\n##",
+    "jobDescription": "Design, implement, and maintain complex network infrastructures, ensuring high availability and security. Configure and troubleshoot network devices such as routers, switches, and firewalls. Lead network security initiatives and provide technical expertise.",
+    "responsibilities": [
+      "Design and implement network solutions based on business requirements",
+      "Configure and manage network hardware (Cisco, Juniper, etc.)",
+      "Monitor network performance and troubleshoot issues",
+      "Implement and maintain network security policies and solutions"
+    ],
+    "requirements": [
+      "5+ years of experience as a Network Engineer",
+      "Strong knowledge of routing and switching protocols (BGP, OSPF)",
+      "Experience with network security devices (Firewalls, IDS/IPS)",
+      "Cisco certifications (CCNP, CCIE) preferred",
+      "Excellent problem-solving and analytical skills"
+    ],
+    "benefits": [
+      "Certification Reimbursement",
+      "On-site Gym",
+      "Annual Health Check-ups"
+    ]
+  },
+  {
+    "id": "job-030",
+    "title": "Product Owner",
+    "company": {
+      "name": "Innovate Software",
+      "logo": "https://placehold.co/150x150/3366FF/FFFFFF?text=TIS",
+      "location": "Pune, Maharashtra, India",
+      "website": "https://www.innovatesoftware.com"
+    },
+    "job_type": "Full-time",
+    "experience": "Senior",
+    "category": "Product Management",
+    "location": "Pune",
+    "workMode": "Hybrid",
+    "salary": "15 LPA - 22 LPA",
+    "postedDate": "2025-07-29",
+    "deadline": "2025-09-15",
+    "education": "Bachelor's Degree",
+    "industry": "IT - Software Product",
+    "skills": ["Agile", "Scrum", "User Stories", "Stakeholder Management", "Roadmapping", "Jira"],
+    "aboutCompany": "## About Innovate Software\nInnovate Software is a leading software product company building impactful solutions for enterprises worldwide. We are seeking an experienced Product Owner to drive the development of our key products and ensure alignment with business goals.\n\n##",
+    "jobDescription": "Define and prioritize product backlog items based on business value and user needs. Work closely with development teams in an Agile Scrum environment. Communicate product vision and requirements to stakeholders. Ensure timely delivery of features.",
+    "responsibilities": [
+      "Define product vision, roadmap, and growth opportunities",
+      "Prioritize and manage the product backlog",
+      "Translate product requirements into user stories and acceptance criteria",
+      "Collaborate with development teams throughout the product lifecycle"
+    ],
+    "requirements": [
+      "5+ years of experience as a Product Owner or Business Analyst in an Agile environment",
+      "Strong understanding of Scrum framework",
+      "Excellent communication, negotiation, and interpersonal skills",
+      "Ability to work with technical and non-technical stakeholders",
+      "Certified Scrum Product Owner (CSPO) is a plus"
+    ],
+    "benefits": [
+      "Hybrid Work Model",
+      "Performance Bonus",
+      "Learning and Development Budget"
+    ]
+  }
+]

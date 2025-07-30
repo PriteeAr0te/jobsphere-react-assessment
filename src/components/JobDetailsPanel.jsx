@@ -18,37 +18,37 @@ const JobDetailsPanel = ({ job }) => {
       <div className='w-full h-fit flex flex-col justify-center items-center gap-y-4 bg-primary z-10 pb-3'>
         <div className='w-[45px] h-[45px] rounded-lg bg-light-bg flex items-center justify-center'>
           <img
-            src={`${job.company_logo_url}${getInitials(job.company_name)}`}
-            alt={job.company_name}
+            src={`${job.company.logo}${getInitials(job.company.name)}`}
+            alt={job.company.name}
             className="w-9 h-9 rounded-full"
           />
         </div>
         <div className='flex flex-col gap-y-2'>
           <h2 className='text-xl capitalize xl:text-2xl text-center font-medium'>{job.title}</h2>
           <div className='flex gap-1 items-center justify-center'>
-            <p className='text-sm text-white/80 italic mb-1 text-center'>{job.company_name}</p>
+            <p className='text-sm text-white/80 italic mb-1 text-center'>{job.company.name}</p>
 
             <span> / </span>
 
             <p className='text-base text-white/80 font-light italic'>
-              {job.company_location?.city || 'Unknown City'}
-              {job.company_location?.state ? `, ${job.company_location.state}` : ''}
+              {job.location || 'Unknown City'}
+              {job.location ? `, ${job.location}` : ''}
             </p>
           </div>
 
-          <p className='text-lg text-white text-center'>{job.salary_range}</p>
+          <p className='text-lg text-white text-center'>{job.salary}</p>
 
           <div className='flex justify-center gap-4 items-center mt-2'>
-            {job.salary_range && (
+            {job.salary && (
               <>
                 <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
-                  {getExperienceCategory(job.experience_level)}
+                  {getExperienceCategory(job.experience)}
                 </div>
                 <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
                   {job.job_type}
                 </div>
                 <div className='px-2 py-1.5 rounded-lg bg-secondary-bg text-white text-center text-xs md:text-sm lg:text-[15px] items-center'>
-                  {job.salary_range}
+                  {job.salary}
                 </div>
               </>
             )}
@@ -61,19 +61,48 @@ const JobDetailsPanel = ({ job }) => {
           <JobToggleBtn activeTab={activeTab} setActiveTab={setActiveTab} />
         </section>
 
-        <section className='mt-4 md:mt-5 px-1 sm:px-2 transition-all duration-300 ease-in-out w-full'>
+        <section className='mt-6 md:mt-5 px-1 sm:px-2 transition-all duration-300 ease-in-out w-full'>
           {activeTab === 'details' ? (
             <div className='fade-in'>
               <div className='prose prose-invert markdoun-text text-white/80'>
+              <h4 className='text-xl font-semibold text-white/80 pb-2'>Job Description</h4>
                 <ReactMarkdown>
-                  {job.job_description}
+                  {job.jobDescription}
                 </ReactMarkdown>
+              </div>
+
+              <div className='mt-4'>
+                <p className='text-white font-semibold mb-2'>Job Responsibilities</p>
+                <ul className="list-disc list-inside text-white/80">
+                  {job.responsibilities?.map((resp, index) => (
+                    <li
+                      key={index}
+                      className="px-2 py-1 text-white/80"
+                    >
+                      <span>{resp}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div className='mt-4'>
+                <p className='text-white font-semibold mb-2'>Job Requirements</p>
+                <ul className="list-disc list-inside text-white/80">
+                  {job.requirements?.map((req, index) => (
+                    <li
+                      key={index}
+                      className="px-2 py-1 text-white/80"
+                    >
+                      <span>{req}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               <div className='mt-4'>
                 <p className='text-white font-semibold mb-2'>Skills Required</p>
                 <div className="flex flex-wrap gap-2">
-                  {job.skills_required?.map((skill, index) => (
+                  {job.skills?.map((skill, index) => (
                     <span
                       key={index}
                       className="px-3 py-1 text-sm font-medium bg-btn-bg text-white/80 rounded-full shadow-sm transition-all duration-200 flex gap-2 items-center"
@@ -89,19 +118,19 @@ const JobDetailsPanel = ({ job }) => {
                   <span className='font-semibold'>
                     Posted Date:
                   </span>
-                  <span className='pl-2'>{job.posted_date}</span>
+                  <span className='pl-2'>{job.postedDate}</span>
                 </p>
                 <p className='w-full text-left text-white/80'>
                   <span className='font-semibold'>
                     Application Deadline:
                   </span>
-                  <span className='pl-2'>{job.application_deadline}</span>
+                  <span className='pl-2'>{job.deadline}</span>
                 </p>
                 <p className='w-full text-left text-white/80'>
                   <span className='font-semibold'>
                     Education Qualification:
                   </span>
-                  <span className='pl-1'>{job.education_required}</span>
+                  <span className='pl-1'>{job.education}</span>
                 </p>
               </div>
             </div>
@@ -109,14 +138,14 @@ const JobDetailsPanel = ({ job }) => {
             <div className='fade-in'>
               <div className='prose prose-invert markdoun-text text-white/80'>
                 <ReactMarkdown>
-                  {job.about_company}
+                  {job.aboutCompany}
                 </ReactMarkdown>
               </div>
               <p className='text-white text-left mt-4'>
                 <span className='font-semibold pr-1'>Visit: </span>
-                <a href={job.company_link} target='_blank' rel='noopener noreferrer' className='text-blue-400 underline'>{job.company_link}</a>
+                <a href={job.company.website} target='_blank' rel='noopener noreferrer' className='text-blue-400 underline'>{job.company.website}</a>
               </p>
-              <p className='mt-2 text-white/80'><span className='text-white font-semibold pr-1'>Location:</span> {job.company_location.city}, {job.company_location.state}</p>
+              <p className='mt-2 text-white/80'><span className='text-white font-semibold pr-1'>Location:</span> {job.company.location}</p>
               <p className='mt-1 text-white/80'><span className='text-white font-semibold pr-1'> Industry: </span>{job.industry}</p>
 
               <p className='text-white mt-1 font-semibold mb-2'>Benefits</p>

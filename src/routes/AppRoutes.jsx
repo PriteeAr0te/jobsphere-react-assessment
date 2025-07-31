@@ -5,6 +5,7 @@ import JobDetails from '../pages/JobDetails'
 import { useEffect, useState } from 'react'
 import ProfileForm from '../pages/ProfileForm'
 import MyProfile from '../pages/MyProfile'
+import AllJobs from '../pages/AllJobs'
 
 const AppRoutes = () => {
     const [fetchedUserProfile, setFetchedUserProfile] = useState(null);
@@ -18,12 +19,11 @@ const AppRoutes = () => {
 
     if (loading) return <div className="text-white text-center">Loading Profile...</div>;
 
-    console.log("fetchedUserProfile:", fetchedUserProfile);
-
     return (
         <Routes>
             <Route element={<MainLayout />} >
                 <Route path='/' element={<Home />} />
+                <Route path='/jobs' element={<AllJobs />} />
                 <Route path='/jobs/:id' element={<JobDetails />} />
                 <Route path='/profile' element={<MyProfile initialData={fetchedUserProfile} />} />
                 <Route path="/edit-profile" element={<ProfileForm initialData={fetchedUserProfile} type="edit" />} />

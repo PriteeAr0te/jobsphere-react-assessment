@@ -23,12 +23,12 @@ const SearchBar = ({onFilterTypeSelect, searchTerm, onSearchTermChange }) => {
 
     return (
         <div className='mt-2 px-2 rounded-xl flex items-center justify-between bg-transparent border border-br-primary/80 focus:border-light-bg/50'>
-            <div className='flex gap-2 items-center text-white/80 py-1.5 border-0 focus:outline-0'>
-                <span>
+            <div className='flex gap-2 w-full items-center text-white/80 py-1 border-0 focus:outline-0 mr-8'>
+                <span className='w-fit'>
                     <IoSearchOutline size={20} />
                 </span>
                 <input
-                    className='w-full py-1.5 bg-transparent border-0 focus-within:outline-0 active:outline-0'
+                    className='min-w-full py-1 border-0 bg-transparent focus-within:outline-0 active:outline-0'
                     type='text'
                     placeholder='Search Job'
                     name='search'
@@ -41,11 +41,11 @@ const SearchBar = ({onFilterTypeSelect, searchTerm, onSearchTermChange }) => {
 
             <details
                 id="filter-dropdown"
-                className="relative group"
+                className="relative group w-fit"
                 ref={dropdownRef}
                 onClick={(e) => e.stopPropagation()}
             >
-                <summary className="py-1 px-1 hover:bg-light-bg/10 rounded-lg cursor-pointer list-none focus:outline-none">
+                <summary className="py-1 px-1 hover:bg-light-bg/10 rounded-lg cursor-pointer list-none focus:outline-none w-fit">
                     <div className='relative'>
                         <IoFilter size={22} />
                     </div>

@@ -678,7 +678,7 @@
     "deadline": "2025-08-30",
     "education": "Bachelor's Degree",
     "industry": "Software Development",
-    "skills": ["Troubleshooting", "Customer Support", "Technical Documentation", "SQL", "Linux"],
+    "skills": ["Troubleshooting", "React.js", "Customer Support", "Technical Documentation", "SQL", "Linux"],
     "aboutCompany": "## About ToolJet\nToolJet is an open-source low-code platform for building and deploying internal tools. We are expanding our team and seeking a Technical Support Engineer to assist our users and ensure their success with the platform.\n\n##",
     "jobDescription": "Provide technical assistance and support to users regarding the ToolJet platform. Troubleshoot issues, resolve technical problems, and escalate complex cases to the engineering team. Create and maintain technical documentation and FAQs.",
     "responsibilities": [
@@ -801,7 +801,7 @@
     "deadline": "2025-08-30",
     "education": "Bachelor's Degree",
     "industry": "IT Services",
-    "skills": ["Golang", "Microservices", "REST APIs", "AWS", "Docker", "Kubernetes"],
+    "skills": ["Golang", "React.js", "Microservices", "REST APIs", "AWS", "Docker", "Kubernetes"],
     "aboutCompany": "## About Velotio Technologies\nVelotio Technologies is a product engineering company specializing in cloud-native and AI/ML solutions. We are seeking a skilled Software Engineer with expertise in Golang to join our remote team in India, with a preference for candidates from Pune.\n\n##",
     "jobDescription": "Develop and maintain high-performance backend services using Golang. Design and implement microservices architectures. Work on cloud-native applications and integrate with various third-party services.",
     "responsibilities": [

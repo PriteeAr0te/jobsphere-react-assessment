@@ -61,12 +61,12 @@ const Header = () => {
         </Link>
       </div>
       <div className='flex gap-2 sm:gap-3 items-center'>
-        <Link to='/jobs' className='cursor-pointer hidden md:block'>
+        <Link to='/jobs' className={`cursor-pointer hidden md:block ${window.location.pathname === '/jobs' ? 'text-light-bg' : 'text-white'}`}>
           <span>
             <IoBriefcaseOutline size={22} />
           </span>
         </Link>
-        <Link to="/message" className='cursor-pointer hidden md:block'>
+        <Link to="/" className='cursor-pointer hidden md:block'>
           <span>
             <BiMessageDetail size={22} />
           </span>

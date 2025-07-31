@@ -142,7 +142,6 @@ const ProfileForm = ({ initialData, type }) => {
     localStorage.setItem("userProfile", JSON.stringify(formData));
     alert("Profile saved successfully!");
     navigate('/profile');
-    console.log("Saved to localStorage:", formData);
   };
 
   const handleBack = () => {

@@ -31,7 +31,6 @@ const JobDetailsPanel = ({ job }) => {
     }
 
     alert("Application submitted successfully!");
-    console.log("Job Applied");
   };
 
   return (

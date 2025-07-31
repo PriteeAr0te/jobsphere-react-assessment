@@ -13,7 +13,6 @@ const ProgressBarComponent = ({currentStep, steps}) => {
                 Step {currentStep + 1} of {steps.length}: {steps[currentStep]}
             </div>
         </div>
-
     )
 }
 

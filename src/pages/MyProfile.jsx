@@ -1,17 +1,59 @@
-import { RiTextSnippet, RiContactsLine } from "react-icons/ri";
+import { RiTextSnippet } from "react-icons/ri";
 import { BsCardText } from "react-icons/bs";
 import { FaRegAddressCard } from "react-icons/fa6";
-import { FaUser, FaRegUser, FaPhoneAlt, FaEnvelope, FaLinkedin, FaGlobe, FaGraduationCap, FaBuilding, FaCodeBranch } from "react-icons/fa";
+import { FaUser, FaRegUser, FaPhoneAlt, FaEnvelope, FaLinkedin, FaGlobe, FaGraduationCap, FaCodeBranch } from "react-icons/fa";
 import { AiOutlineEdit, AiOutlinePlus } from "react-icons/ai";
 import { MdWorkOutline } from "react-icons/md";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { LuBriefcaseBusiness } from "react-icons/lu";
+import { calculateProfileCompletion } from "../utils/calculateProfileCompletion";
+import { MdOutlineSettings } from "react-icons/md";
 
 const MyProfile = ({ initialData }) => {
+  const completion = calculateProfileCompletion(initialData);
+  const navigate = useNavigate();
+
+  const goBack = () => {
+    if (window.history.length > 2) {
+      navigate(-1);
+    } else {
+      navigate('/');
+    }
+  };
+
   return (
     <section className='w-full h-full pb-4 px-2 flex flex-col gap-y-3 justify-center items-center'>
-      <h1 className='text-2xl font-semibold text-white mb-4 text-center'>My Profile</h1>
+      <div className="w-full px-2 sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto mb-4 flex justify-between items-center">
+        <button
+          onClick={goBack}
+          className=" text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer"
+        >
+          ← Back
+        </button>
+        <h1 className='text-2xl font-semibold text-white mb-4 text-center'>My Profile</h1>
+        <button
+          // onClick={goBack}
+          className=" text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer"
+        >
+          <MdOutlineSettings size={20} />
+        </button>
+      </div>
       <div className='max-w-6xl xl:w-[70%] mx-auto border border-br-primary/60 shadow-md rounded-lg p-6'>
+
+        <div className="mb-6">
+          {initialData && (
+            <div className="w-full max-w-6xl mx-auto px-2 mb-4">
+              <p className="text-white text-sm mb-1">Profile Completion: {completion}%</p>
+              <div className="w-full bg-secondary-bg rounded h-3 overflow-hidden">
+                <div
+                  className="h-full bg-light-bg transition-all duration-500"
+                  style={{ width: `${completion}%` }}
+                />
+              </div>
+            </div>
+          )}
+
+        </div>
 
         <div className='w-full space-y-5'>
           {initialData ? (

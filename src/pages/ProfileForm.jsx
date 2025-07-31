@@ -7,6 +7,7 @@ import ProgressBarComponent from '../components/ui/ProgressBarComponent';
 import EducationSection from '../components/ui/profile-sections/EducationSection';
 import ExperienceSection from '../components/ui/profile-sections/ExperienceSection';
 import { useNavigate } from 'react-router-dom';
+import { MdOutlineSettings } from "react-icons/md";
 
 const ProfileForm = ({ initialData, type }) => {
   const [formData, setFormData] = useState({
@@ -144,13 +145,35 @@ const ProfileForm = ({ initialData, type }) => {
     console.log("Saved to localStorage:", formData);
   };
 
+  const handleBack = () => {
+    if (window.history.length > 2) {
+      navigate(-1);
+    } else {
+      navigate('/');
+    }
+  };
+
+
   return (
-    <section id='profile' className='w-full overflow-x-hidden h-full px-2 '>
+    <section id='profile' className='w-full flex flex-col justify-center items-center overflow-x-hidden h-full px-2 '>
       <form
         type='submit'
         onSubmit={handleSubmit}
-        className='max-w-6xl mx-auto py-4 bg-transparent shadow-md'>
-        <h1 className='text-2xl font-semibold text-white mb-4 text-center w-full'> {type === 'create' ? "Create Profile" : "Edit Profile"}</h1>
+        className='w-full sm:w-[92%] md:w-[85%] lg:w-[78%] xl:w-[75%] py-4 bg-transparent shadow-md'>
+        <div className="w-full px-2 mx-auto mb-4 flex justify-between items-center">
+          <button
+            onClick={handleBack}
+            className=" text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer whitespace-nowrap"
+          >
+            ← Back
+          </button>
+          <h1 className='text-2xl font-semibold text-white mb-4 text-center w-full'> {type === 'create' ? "Create Profile" : "Edit Profile"}</h1>
+          <button
+            className=" text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer"
+          >
+            <MdOutlineSettings size={20} />
+          </button>
+        </div>
         <div className='py-4 w-full flex justify-between items-center'>
           <ProgressBarComponent currentStep={currentStep} steps={steps} />
         </div>

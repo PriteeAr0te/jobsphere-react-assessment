@@ -158,7 +158,7 @@ const ProfileForm = ({ initialData, type }) => {
       <form
         type='submit'
         onSubmit={handleSubmit}
-        className='w-full sm:w-[92%] md:w-[85%] lg:w-[78%] xl:w-[75%] py-4 bg-transparent shadow-md'>
+        className='w-full sm:w-[92%] md:w-[85%] lg:w-[78%] xl:w-[75%] py-4 bg-transparent shadow-md px-2'>
         <div className="w-full px-2 mx-auto mb-4 flex justify-between items-center">
           <button
             onClick={handleBack}
@@ -185,7 +185,7 @@ const ProfileForm = ({ initialData, type }) => {
                 type="button"
                 onClick={goBack}
                 disabled={currentStep === 0}
-                className={`relative group bg-gray-600 text-white px-4 py-2 rounded-lg transition 
+                className={`relative group bg-gray-600 text-gray-200 dark:text-white px-4 py-2 rounded-lg transition 
                 ${currentStep === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-700'}
               `}
               >

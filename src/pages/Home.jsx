@@ -119,12 +119,7 @@ const Home = () => {
       <div className='w-full pb-4 flex flex-col justify-center items-center'>
         <div className='w-full md:w-[75%] lg:w-[65%] xl:w-[50%] 2xl:w-[45%] overflow-x-hidden'>
           <div className="w-full px-2 mx-auto mb-4 flex justify-between items-center">
-            <button
-              onClick={goBack}
-              className="text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer"
-            >
-              ← Back
-            </button>
+            <div></div>
             <h2 className='text-xl md:text-2xl font-semibold tracking-wide mb-1'>Let's Find Job</h2>
             <button className="text-white px-2 py-2 rounded-lg hover:bg-light-bg/50">
               <MdOutlineSettings size={20} />

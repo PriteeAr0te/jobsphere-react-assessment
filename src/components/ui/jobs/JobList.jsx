@@ -20,7 +20,7 @@ const JobList = ({ onSelect, selectedJobId, isMobile, jobs }) => {
       {jobs.map(job => {
         const isSelected = job.id === selectedJobId
         return (
-          <JobCard isSelected={isSelected} onSelect={onSelect} job={job} />
+          <JobCard key={job.id} isSelected={isSelected} onSelect={onSelect} job={job} />
         )
       })}
 

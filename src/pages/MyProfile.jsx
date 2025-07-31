@@ -22,7 +22,7 @@ const MyProfile = ({ initialData }) => {
   };
 
   return (
-    <section className='w-full h-full pb-4 px-2 flex flex-col gap-y-3 justify-center items-center'>
+    <section className='w-full h-full pb-4 px-2 flex flex-col gap-y-3 justify-center items-center overflow-x-hidden'>
       <div className="w-full px-2 sm:w-[90%] md:w-[80%] lg:w-[70%] mx-auto mb-4 flex justify-between items-center">
         <button
           onClick={goBack}
@@ -32,21 +32,20 @@ const MyProfile = ({ initialData }) => {
         </button>
         <h1 className='text-2xl font-semibold text-white mb-4 text-center'>My Profile</h1>
         <button
-          // onClick={goBack}
           className=" text-white px-2 py-2 rounded-lg hover:bg-light-bg/50 transition duration-300 ease-in-out cursor-pointer"
         >
           <MdOutlineSettings size={20} />
         </button>
       </div>
-      <div className='max-w-6xl xl:w-[70%] mx-auto border border-br-primary/60 shadow-md rounded-lg p-6'>
+      <div className='max-w-6xl xl:w-[70%] mx-auto border border-br-primary/60 shadow-md rounded-lg p-2 sm:p-6'>
 
         <div className="mb-6">
           {initialData && (
             <div className="w-full max-w-6xl mx-auto px-2 mb-4">
               <p className="text-white text-sm mb-1">Profile Completion: {completion}%</p>
-              <div className="w-full bg-secondary-bg rounded h-3 overflow-hidden">
+              <div className="w-full bg-light-bg/50 rounded h-3 overflow-hidden">
                 <div
-                  className="h-full bg-light-bg transition-all duration-500"
+                  className="h-full bg-blue-500 dark:bg-light-bg transition-all duration-500"
                   style={{ width: `${completion}%` }}
                 />
               </div>
@@ -68,7 +67,7 @@ const MyProfile = ({ initialData }) => {
                   </h2>
 
                   <button className="text-gray-700 dark:text-light-bg hover:text-white cursor-pointer transition duration-300 ease-in">
-                    <AiOutlineEdit className='' size={20} />
+                    <AiOutlineEdit className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' size={20} />
                   </button>
                 </div>
 
@@ -81,11 +80,11 @@ const MyProfile = ({ initialData }) => {
               <section className='rounded-lg p-2 sm:p-4 border border-br-primary/60 bg-secondary-bg'>
                 <div className="w-full flex justify-between items-center pb-1.5 border-b border-light-bg/50">
                   <h2 className='text-lg font-semibold text-white mb-2 flex items-center gap-2'>
-                    <span className="text-light-bg"><FaRegAddressCard /></span>
+                    <span className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white'><FaRegAddressCard /></span>
                     <span>Contact Information</span>
                   </h2>
                   <Link to="/edit-profile" className="text-light-bg hover:text-white cursor-pointer transition">
-                    <AiOutlineEdit size={20} />
+                    <AiOutlineEdit className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' size={20} />
                   </Link>
                 </div>
                 <div className='space-y-2 mt-3 text-white/80'>
@@ -97,7 +96,7 @@ const MyProfile = ({ initialData }) => {
                     initialData?.contactInfo?.country
                   ) && (
                       <p className="flex gap-2 items-center">
-                        <FaRegAddressCard className="text-light-bg" />
+                        <FaRegAddressCard className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' />
                         {[
                           initialData.contactInfo.address1,
                           initialData.contactInfo.address2,
@@ -107,10 +106,10 @@ const MyProfile = ({ initialData }) => {
                         ].filter(Boolean).join(', ')}
                       </p>
                     )}
-                  {initialData.contactInfo.phone && <p className="flex gap-2 items-center"><FaPhoneAlt className="text-light-bg" />{initialData.contactInfo.phone}</p>}
-                  {initialData.contactInfo.email && <p className="flex gap-2 items-center"><FaEnvelope className="text-light-bg" />{initialData.contactInfo.email}</p>}
-                  {initialData.contactInfo.linkedin && <p className="flex gap-2 items-center"><FaLinkedin className="text-light-bg" />{initialData.contactInfo.linkedin}</p>}
-                  {initialData.contactInfo.portfolio && <p className="flex gap-2 items-center"><FaGlobe className="text-light-bg" />{initialData.contactInfo.portfolio}</p>}
+                  {initialData.contactInfo.phone && <p className="flex gap-2 items-center"><FaPhoneAlt className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' />{initialData.contactInfo.phone}</p>}
+                  {initialData.contactInfo.email && <p className="flex gap-2 items-center"><FaEnvelope className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' />{initialData.contactInfo.email}</p>}
+                  {initialData.contactInfo.linkedin && <p className="flex gap-2 items-center"><FaLinkedin className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' />{initialData.contactInfo.linkedin}</p>}
+                  {initialData.contactInfo.portfolio && <p className="flex gap-2 items-center"><FaGlobe className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' />{initialData.contactInfo.portfolio}</p>}
                 </div>
               </section>
 
@@ -124,7 +123,7 @@ const MyProfile = ({ initialData }) => {
                   </h2>
 
                   <button className="text-gray-700 dark:text-light-bg hover:text-white cursor-pointer transition duration-300 ease-in">
-                    <AiOutlineEdit className='' size={20} />
+                    <AiOutlineEdit className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' size={20} />
                   </button>
                 </div>
 
@@ -136,10 +135,10 @@ const MyProfile = ({ initialData }) => {
               <section className='rounded-lg p-2 sm:p-4 border border-br-primary/60 bg-secondary-bg'>
                 <div className="flex justify-between items-center pb-1.5 border-b border-light-bg/50">
                   <h2 className='text-lg font-semibold text-white mb-2 flex items-center gap-2'>
-                    <FaGraduationCap className="text-light-bg" /> Education
+                    <FaGraduationCap className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /> Education
                   </h2>
                   <div className='flex gap-2'>
-                    <Link to="/edit-profile"><AiOutlineEdit size={20} className="text-light-bg hover:text-white" /></Link>
+                    <Link to="/edit-profile"><AiOutlineEdit size={20} className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /></Link>
                     <button><AiOutlinePlus size={20} className="text-light-bg hover:text-white" /></button>
                   </div>
                 </div>
@@ -155,14 +154,13 @@ const MyProfile = ({ initialData }) => {
                 </div>
               </section>
 
-              {/* ✅ Experience */}
               <section className='rounded-lg p-2 sm:p-4 border border-br-primary/60 bg-secondary-bg'>
                 <div className="flex justify-between items-center pb-1.5 border-b border-light-bg/50">
                   <h2 className='text-lg font-semibold text-white mb-2 flex items-center gap-2'>
-                    <MdWorkOutline className="text-light-bg" /> Experience
+                    <MdWorkOutline className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /> Experience
                   </h2>
                   <div className='flex gap-2'>
-                    <Link to="/edit-profile"><AiOutlineEdit size={20} className="text-light-bg hover:text-white" /></Link>
+                    <Link to="/edit-profile"><AiOutlineEdit size={20} className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /></Link>
                     <button><AiOutlinePlus size={20} className="text-light-bg hover:text-white" /></button>
                   </div>
                 </div>
@@ -179,20 +177,19 @@ const MyProfile = ({ initialData }) => {
                 </div>
               </section>
 
-              {/* ✅ Skills */}
               <section className='rounded-lg p-2 sm:p-4 border border-br-primary/60 bg-secondary-bg'>
                 <div className="flex justify-between items-center pb-1.5 border-b border-light-bg/50">
                   <h2 className='text-lg font-semibold text-white mb-2 flex items-center gap-2'>
-                    <FaCodeBranch className="text-light-bg" /> Skills
+                    <FaCodeBranch className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /> Skills
                   </h2>
                   <Link to="/edit-profile" className="text-light-bg hover:text-white cursor-pointer">
-                    <AiOutlineEdit size={20} />
+                    <AiOutlineEdit className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' size={20} />
                   </Link>
                 </div>
-                <div className='mt-3 text-white/80 flex flex-wrap gap-2'>
+                <div className='mt-3 text-white flex flex-wrap gap-2'>
                   {initialData.skills?.length > 0 ? (
                     initialData.skills.map((skill, idx) => (
-                      <span key={idx} className='bg-primary/80 px-3 py-1 rounded-md text-sm'>{skill}</span>
+                      <span key={idx} className='bg-primary/80 border border-br-primary px-3 py-1 rounded-lg text-sm'>{skill}</span>
                     ))
                   ) : (
                     <p className='text-gray-400'>No skills added</p>
@@ -200,14 +197,13 @@ const MyProfile = ({ initialData }) => {
                 </div>
               </section>
 
-              {/* ✅ Job Preferences */}
               <section className='rounded-lg p-2 sm:p-4 border border-br-primary/60 bg-secondary-bg'>
                 <div className="flex justify-between items-center pb-1.5 border-b border-light-bg/50">
                   <h2 className='text-lg font-semibold text-white mb-2 flex items-center gap-2'>
-                    <LuBriefcaseBusiness className="text-light-bg" /> Job Preferences
+                    <LuBriefcaseBusiness className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' /> Job Preferences
                   </h2>
                   <Link to="/edit-profile" className="text-light-bg hover:text-white cursor-pointer">
-                    <AiOutlineEdit size={20} />
+                    <AiOutlineEdit className='text-gray-600 dark:text-light-bg hover:text-gray-800 dark:hover:text-white' size={20} />
                   </Link>
                 </div>
                 <div className='mt-3 text-white/80 space-y-1'>

@@ -9,7 +9,7 @@ const JobDetails = () => {
   const job = jobs.find(j => j.id.toString() === id)
 
   return (
-    <section className='p-6'>
+    <section className='p-2 sm:p-6'>
       <JobDetailsPanel job={job}/>
     </section>
   )

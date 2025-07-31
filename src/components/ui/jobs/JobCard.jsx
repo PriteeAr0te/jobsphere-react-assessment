@@ -1,4 +1,3 @@
-import React from 'react'
 import { getInitials } from '../../../utils/getInitials'
 import { getPostedTimeAgo, isExpired } from '../../../utils/dateUtils'
 import { getExperienceCategory } from '../../../utils/getExperienceCategory'
@@ -7,7 +6,6 @@ import { CiBookmark } from 'react-icons/ci'
 const JobCard = ({job, onSelect, isSelected}) => {
   return (
     <div
-      key={job.id}
       onClick={() => onSelect(job)}
       className={`p-4 border bg-secondary-bg/70 border-br-primary/60 ${isSelected ? 'dark:border-light-bg/50 border-text-secondary/50' : 'hover:border-text-secondary dark:hover:border-light-bg/50'} transform ease-in duration-300 rounded-lg group cursor-pointer`}>
       <div className='w-full flex justify-between items-start'>

@@ -52,8 +52,8 @@ const Header = () => {
           <FiMenu size={18} />
         </button>
         <Link to='/' className='gap-2 items-center hidden md:flex'>
-          <span className='text-white w-[35px] h-[35px] sm:w-[40px] sm:h-[40px] xl:w-[45px] xl:h-[45px]'>
-            <img src={Logo} width={45} className='rounded-full' alt='JobSphere' />
+          <span className='text-white w-[35px] h-[35px] sm:w-[40px] sm:h-[40px]'>
+            <img src={Logo} width={40} className='rounded-full' alt='JobSphere' />
           </span>
           <h2 className='text-lg sm:text-xl font-medium tracking-wide'>
             JobSpeher
@@ -138,7 +138,11 @@ const Header = () => {
             )
             }
             <button
-              onClick={toggleDarkMode}
+            onClick={() => {
+                toggleDarkMode();
+                handleClose();
+              }}
+
               className='py-2 px-4 w-full text-sm text-white cursor-pointer flex gap-2 items-center hover:bg-secondary-bg'
             >
               <span>{darkMode ? <MdOutlineDarkMode size={18} /> : <MdDarkMode size={18} />}</span>

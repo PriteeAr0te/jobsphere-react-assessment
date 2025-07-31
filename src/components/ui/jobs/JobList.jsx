@@ -30,12 +30,12 @@ const JobList = ({ onSelect, selectedJobId, isMobile, jobs }) => {
             className={`p-4 border bg-secondary-bg/70 border-br-primary/60 ${isSelected ? 'dark:border-light-bg/50 border-text-secondary/50' : 'hover:border-text-secondary dark:hover:border-light-bg/50'} transform ease-in duration-300 rounded-lg group cursor-pointer`}>
             <div className='w-full flex justify-between items-center'>
               <div className='flex gap-3 items-start'>
-                <div className='w-[45px] min-w-[45px] h-[45px] min-h-[45px] rounded-lg bg-light-bg flex items-center justify-center'>
-                  <img
-                    src={`${job.company.logo}${getInitials(job.company.name)}`}
-                    alt={job.company.name}
-                    className="w-9 h-9 rounded-full"
-                  />
+                <div className='w-[45px] min-w-[45px] h-[45px] min-h-[45px] rounded-lg bg-light-bg flex items-center justify-center text-center'>
+                  <span
+                    className="w-9 h-9 rounded-full text-lg bg-primary text-white pt-1"
+                  > 
+                  {getInitials(job.company.name)}
+                  </span>
                 </div>
                 <div className='flex flex-col'>
                   <h2 className='lg:text-lg xl:text-[19px] font-medium text-white mb-1.5 group-hover:underline cursor-pointer'> {job.title.length > 30 ? `${job.title.slice(0, 30)}...` : job.title}</h2>

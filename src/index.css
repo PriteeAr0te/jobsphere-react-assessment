@@ -52,6 +52,20 @@ body {
   overflow-x: hidden
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #9999FF;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #13162A;
+  border-radius: 20px;
+  border: 1px solid #9999FF;
+}
+
 .shadow-custom {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -121,9 +135,11 @@ body {
   border: 2px solid lightgray;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: 4px !important;
 }
+
 .swiper-pagination-bullet {
   background-color: var(--color-pagination) !important;
   width: 12px !important;
